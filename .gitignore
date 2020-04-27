@@ -1,6 +1,9 @@
 # specific files to ignore for this repository
 main.pdf
 
+## Orange workflow swp files
+*.ows.swp.p
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
