@@ -1,20 +1,19 @@
-\chapter{Preprocessing spectal data}
+\chapter{Preprocessing spectral data}
 \label{ch:spectral_preprocessing}
 
 
 \begin{wrapfigure}{o}{0.63\textwidth}
     \centering
     \vspace{-3.4cm}
-    \includegraphics[width=0.75\textwidth]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig1.png}
+    \includegraphics[scale=0.55]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig1.png}
     \label{fig:spectral_preprocessing-fig1}
 \end{wrapfigure}
 
-Preprocessing spectra is a very important step of data analysis. \mutation\ has a widget, \textit{Preprocessing}, dedicated to different methods.The spectra from the “Liver cirrhosis” data set could use some preprocessing. There is some scattering visible and perhaps there are some artifacts due to sample thickness varying slightly.
+Preprocessing spectra is a very important step of data analysis. \mutation\ has a widget, \textit{Preprocessing}, dedicated to different methods. The spectra from the ``Liver cirrhosis'' data set could use some preprocessing. There is some scattering visible and perhaps there are some artifacts due to sample thickness varying slightly.
 
 \begin{figure}[h]
-    \centering
-    % \vspace{-1cm}
-    \includegraphics[width=\textwidth]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig2.png}
+    \vspace{-0.2cm}
+    \includegraphics[scale=0.28]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig2.png}
     \caption{You can add preprocessing steps from the top dropdown menu of the left panel. Then, it is possible to drag them up and down to change their order. Each preprocessor has its own parameters. In the example here we show how the Baseline correction is done: you can simply change the baseline points by dragging the red lines in the top spectrum panel. Each stage can be previewed by clicking the small triangle.}
     \label{fig:spectral_preprocessing-fig2}
 \end{figure}
@@ -22,8 +21,9 @@ Preprocessing spectra is a very important step of data analysis. \mutation\ has 
 Let's see the result of our preprocessing in a \textit{HyperSpectra} widget.
 
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=0.9\textwidth]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig3.png}
+    \vspace{-0.2cm}
+    \includegraphics[scale=0.28]{graphics/ch-spectral_preprocessing/spectral_preprocessing-fig3.png}
+    \vspace{-1cm}
     \caption{The preprocessed data in \textit{HyperSpectra}. Did we gain anything? To investigate why the blue island disappeared, click on a pixel in it to see its spectrum.}
     \label{fig:spectral_preprocessing-fig3}
 \end{figure}
