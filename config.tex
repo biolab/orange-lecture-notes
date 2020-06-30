@@ -139,5 +139,10 @@
 \newcommand{\docfilehook}[2]{\texttt{#1}\index{file hooks!#2}\index{#1@\texttt{#1}}}
 \newcommand{\doccounter}[1]{\texttt{#1}\index{#1 counter@\texttt{#1} counter}}
 
+
+% do not put empty space before chapters; not needed in this handbook
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+
 % Generates the index
 \usepackage{makeidx}
