@@ -18,12 +18,12 @@ Let us load \textit{iris} data set, build a tree (widget \widget{Tree}) and visu
     \label{fig:classification-predictions}
 \end{figure*}
 
-\begin{wrapfigure}{o}{1.1\textwidth}
+\begin{wrapfigure}{o}{1.0\textwidth}
     \includegraphics[scale=0.35]{graphics/ch-classification_trees/tree-viewer.png}
     \label{fig:classification-predictions}
 \end{wrapfigure}
 
-We read the tree from top to bottom. Looks like the column \textit{petal length} best separates iris variety \textit{setosa} from the others, while \textit{petal width} then almost perfectly separates the remaining two varieties.
+We read the tree from top to bottom. Looks like the column \textit{petal length} best separates the iris variety \textit{setosa} from the others, and in the next step, \textit{petal width} then almost perfectly separates the remaining two varieties.
 
 Trees place the most useful feature at the root. What would be the most useful feature? The feature that splits the data into two purest possible subsets. It then splits both subsets further, again by their most useful features, and keeps doing so until it reaches subsets in which all data belongs to the same class (leaf nodes in strong blue or red) or until it runs out of data instances to split or out of useful features (the two leaf nodes in white).
 
@@ -43,3 +43,22 @@ Besides the information gain, \widget{Rank} displays several other measures (inc
     \includegraphics[scale=0.4]{graphics/ch-classification_trees/rank.png}
     \caption{For the whole \textit{Sailing} data set, \textit{Company} is the most class-informative feature according to all measures shown.}
 \end{figure}
+
+\newpage
+
+Here is an interesting combination of a \widget{Tree Viewer} and a \widget{Scatter Plot}. This time, use the \textit{Iris} data set. In the \widget{Scatter Plot}, we first find the best visualization of this data set, that is, the one that best separates the instances from different classes. Then we connect the \widget{Tree Viewer} to the \widget{Scatter Plot}. Data instances (particular irises) from the selected node in the \widget{Tree Viewer} are shown in the \widget{Scatter Plot}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{graphics/ch-classification_trees/workflow-inspection.png}
+    \caption{Careful, the \widget{Data} widget needs to be connected to the \widget{Scatter Plot}'s \textit{Data} input, and \widget{Tree Viewer} to the \widget{Scatter Plot}'s \textit{Data Subset} input.}
+\end{figure}
+
+Just for fun, we have included a few other widgets in this workflow. In a way, a \widget{Tree Viewer} behaves like \widget{Select Rows}, except that the rules used to filter the data are inferred from the data itself and optimized to obtain purer data subsets.
+
+\begin{figure*}[h]
+  \infinitewidthbox{\includegraphics[scale=0.35]{graphics/ch-classification_trees/tree-viewer-selection.png} \includegraphics[scale=0.35]{graphics/ch-classification_trees/scatter-plot-subset.png}}
+  \caption{In the \widget{Tree Viewer} we selected the rightmost node. All data instances coming to the selected node are highlighted in \widget{Scatter Plot}.}
+\end{figure*}
+
+Wherever possible, visualizations in Orange are designed to support selection and passing of the data that applies to it. Finding interesting data subsets and analyzing their commonalities is a central part of explorative data analysis, a data analysis approach favored by the data visualization guru Edward Tufte.
