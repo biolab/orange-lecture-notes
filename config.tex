@@ -148,3 +148,13 @@
 
 % Generates the index
 \usepackage{makeidx}
+
+% Remove "Figure X:" before figures.
+% We do not need these in our short chapters.
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@caption}
+  {\noindent\csname fnum@#1\endcsname: \ignorespaces}
+  {\noindent}
+  {}{}
+\makeatother
