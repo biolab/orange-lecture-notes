@@ -20,6 +20,7 @@ Fine. There can be no classifier that can model this mess, right? Let’s make s
 
 \begin{figure}[h]
     \includegraphics[scale=0.4]{graphics/ch-how_to_cheat/workflow_classification.png}
+    \caption{$\;$} % empty caption for correct alignment
 \end{figure}
 
 \begin{wrapfigure}{o}{0.85\textwidth}
@@ -61,12 +62,12 @@ Ha, if this is so, if a classifier remembers everything from a data set but with
 
 Let’s check how the \widget{Confusion Matrix} looks after testing the classifier on the test data.
 
+The first two classes are a complete fail. The predictions for ribosomal genes are a bit better, but still with lots of mistakes. On the class-randomized training data our classifier fails miserably. Finally, just as we would expect.
+
 \begin{figure}[h]
     \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/confusion_sampler.png}
     \caption{Confusion matrix if we estimate accuracy on a data set that was not used in learning.}
 \end{figure}
-
-The first two classes are a complete fail. The predictions for ribosomal genes are a bit better, but still with lots of mistakes. On the class-randomized training data our classifier fails miserably. Finally, just as we would expect.
 
 We have just learned that we need to train the classifiers on the training set and then test it on a separate test set to really measure performance of a classification technique. With this test, we can distinguish between those classifiers that just memorize the training data and those that actually learn a general model.
 

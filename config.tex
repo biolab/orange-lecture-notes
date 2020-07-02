@@ -158,3 +158,8 @@
   {\noindent}
   {}{}
 \makeatother
+
+% Do not put additional empty pages before chapters
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{\clearpage}{}{}
+\makeatother
