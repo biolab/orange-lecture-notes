@@ -1,5 +1,6 @@
 # specific files to ignore for this repository
 main.pdf
+test.pdf
 
 ## Orange workflow swp files
 *.ows.swp.p
