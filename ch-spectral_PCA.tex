@@ -3,18 +3,6 @@
 
 
 
-%\begin{marginfigure}
-%   \centering
-%  \includegraphics[width=\linewidth]{graphics/ch-spectral_PCA/spectral_PCA-fig1.png}%
-%  \caption{Start with this simple workflow.}
-%  \label{fig:spectral-PCA-fig1}
-%\end{marginfigure}
-
-
-% MARKO: an alternative side image addition
-% I think we should avoid Figures unless we want to add captions; we can add images directly
-% We probably need to add figure environments so that they are not counted and do not start with "Figure X" - We only need them for comments.
-
 \begin{wrapfigure}{o}{0.5\textwidth}
     \centering
     \vspace{-2cm}
@@ -26,14 +14,6 @@ In this lesson we will explore the capabilities of \mutation\ for principal comp
 We see that the first two principal components separate majority compounds in that part of the tissue well. 
 
 
-% MARKO: Here is how I propose how to add images.
-% I prefer not making combined screenshots.
-% The original images can be copied from the pages file directly, if it is saved as a package: File -> Advanced -> Change file type -> Package.
-% Then we can open the package in finder. Images there have funny names, but we can rename one by one. When the names are nice, they can be copied in the correct chapter and added into the document with code like below. 
-% This also allows us to take images without any loss of quality and we can also scale them so that combined images always have the same resolution.
-% Here I made it just for one example. If you agree, let's do them all.
-
-% FERI: I like this approach a lot. As I said in my email, let's try to combine all these package functionality into our own figure environment if possible, to simplify the figure insertion... For now I will use this
 \begin{figure}[h]
 \hspace{-1cm}\stackinset{r}{-0.4\linewidth}{t}{+0.1\linewidth}
   {\includegraphics[scale=0.4]{graphics/ch-spectral_PCA/scatterplot.png}}
@@ -74,5 +54,3 @@ To find out more, select one of them: move your mouse cursor to a curve -—it w
   \caption{The selected spectrum's curve on the left is drawn with a dashed line and the corresponding original spectrum is highlighted on the right. \textit{Scatter Plot} shows the position of the selected spectrum in the PCA space.}
   \label{fig:spectral-PCA-fig5}
 \end{figure*}
-
-%% Text boxes that stretch for the whole width of the page would probably solve this issue. Then we could place the corresponding text with the figure and they wouldn't move relative to each other. Inside the textbox we can still keep the style of the main document.
