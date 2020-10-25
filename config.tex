@@ -163,3 +163,9 @@
 \makeatletter
 \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{\clearpage}{}{}
 \makeatother
+
+
+% Lecturer notes
+\newcommand{\lecnotes}[1]{
+	\ifthenelse{\equal{\printlecnotes}{true}}{#1}{}
+}
