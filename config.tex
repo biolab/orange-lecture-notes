@@ -1,3 +1,4 @@
+\usepackage{colortbl} 
 
 \hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
 
@@ -12,6 +13,7 @@
 
 %\usepackage{microtype}
 
+\usepackage{tcolorbox}
 \usepackage[english]{babel}
 
 %%
@@ -29,6 +31,7 @@
 \usepackage{graphicx}
 %\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}  % disabled for problems with scale/resolution
 \setkeys{Gin}{keepaspectratio}
+
 \graphicspath{{graphics/}}
 
 % The fancyvrb package lets us customize the formatting of verbatim
@@ -41,7 +44,7 @@
 % Sets the name of the package between Orange compilations
 % Always use this instead of directly referring to Orange or Quasar or Oasys, etc.
 % \newcommand{\mutation}{Orange}
-% \newcommand{\mutation}{Orange}
+% \newcommand{\mutation}{scOrange}
 \newcommand{\mutation}{Quasar}
 \newcommand{\widget}[1]{\textsl{#1}}
 \newcommand{\wn}{~cm$^{-1}$}
@@ -163,3 +166,23 @@
 \makeatletter
 \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{\clearpage}{}{}
 \makeatother
+
+
+% Lecturer notes
+\newtcolorbox{mylecnote}[1][]{%
+  size=title,
+  boxrule=0.5pt,
+  fonttitle={\large\bfseries},
+  coltitle={black},
+  title={Lecturer note.\ },
+  attach title to upper,
+  #1
+}
+
+\newcommand{\lecnotes}[1]{
+	\ifthenelse{\equal{\printlecnotes}{true}}{
+	\begin{mylecnote}
+		{#1}
+	\end{mylecnote}
+	}{}
+}
