@@ -13,7 +13,7 @@
 
 %\usepackage{microtype}
 
-
+\usepackage{tcolorbox}
 \usepackage[english]{babel}
 
 %%
@@ -169,25 +169,15 @@
 
 
 % Lecturer notes
-\newenvironment{mylecnote}
-    {
-%    \begin{minipage}
-	    \begin{tabular}{|p{0.9\textwidth}|}
-   		    \rowcolor{gray!20}
-
-		    \hline
-		    \newthought{Lecturer note}
-		    \\
-		    \rowcolor{gray!5}
-		    \vspace{0.1 cm}
-    }
-    { 
-		    
-		    \vspace{0.5 cm}
-		    \\\hline
-	    \end{tabular} 
-    }
-
+\newtcolorbox{mylecnote}[1][]{%
+  size=title,
+  boxrule=0.5pt,
+  fonttitle={\large\bfseries},
+  coltitle={black},
+  title={Lecturer note.\ },
+  attach title to upper,
+  #1
+}
 
 \newcommand{\lecnotes}[1]{
 	\ifthenelse{\equal{\printlecnotes}{true}}{
