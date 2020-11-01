@@ -32,7 +32,7 @@ jobs:
 #         echo Add other actions to build,
 #         echo test, and deploy your project.
     - name: LaTeX compilation
-      uses: dante-ev/latex-action
+      uses: dante-ev/latex-action@master
       with:
         # The root LaTeX file to be compiled
         root_file: main.tex
