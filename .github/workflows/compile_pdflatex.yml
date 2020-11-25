@@ -22,25 +22,34 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-#     - name: Run a one-line script
-#       run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-#     - name: Run a multi-line script
-#       run: |
-#         echo Add other actions to build,
-#         echo test, and deploy your project.
     - name: LaTeX compilation
       uses: dante-ev/latex-action@master
       with:
         # The root LaTeX file to be compiled
         root_file: main.tex
-        # The working directory for the latex compiler to be invoked
-#         working_directory: # optional
         # LaTeX engine to be used
-        compiler: pdflatex # optional, default is latexmk
+        compiler: latexmk # optional, default is latexmk
         # Extra arguments to be passed to the latex compiler
 #         args: # optional, default is -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
         # Install extra packages by apt-get
 #         extra_system_packages: # optional
+
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf
+        path: main.pdf
+        retention-days: 30
+        if-no-files-found: error
+
+    - name: Move file to a branch
+      if: success() && github.ref == 'refs/heads/master'
+      run: |
+        git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+        git config --global user.name "$GITHUB_ACTOR"
+        git fetch --all
+        git checkout pdf
+        mv main.pdf quasar.pdf
+        git add quasar.pdf
+        git commit -m "pdf compile"
+        git push origin pdf
