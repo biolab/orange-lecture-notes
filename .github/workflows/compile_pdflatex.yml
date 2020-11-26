@@ -35,6 +35,6 @@ jobs:
         git fetch --all
         git checkout pdf
         mv main.pdf Quasar-case_studies.pdf
-        git add quasar.pdf
+        git add Quasar-case_studies.pdf
         git commit -m "pdf compile"
         git push origin pdf
