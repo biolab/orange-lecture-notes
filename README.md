@@ -1,4 +1,4 @@
-# Quasar case study book
+# Case study book
 
-View it here:
-- [Latest PDF for Quasar](quasar.pdf?raw=1)
+[Quasar, student version](quasar.pdf?raw=1)
+[Quasar, teacher version]()
