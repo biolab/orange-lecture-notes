@@ -4,7 +4,7 @@
 \newthought{\mutation\ workflows} consist of components that read, process and visualize data. We call them “widgets”. Widgets are placed on a drawing board (the “canvas”). Widgets communicate by sending information along a communication channel. Output from one widget is used as input to another.
 
 \begin{figure*}[h]
-  \includegraphics[width=\linewidth]{graphics/ch-workflows/workflow-fig1.png}%
+  \includegraphics[width=\linewidth]{workflow-fig1.png}%
   \caption{A simple workflow with two connected widgets and one widget without connections. The outputs of a widget appear on the right, while the inputs appear on the left.}
   \label{fig:workflow-fig1}
 \end{figure*}
@@ -15,7 +15,7 @@ Start by constructing a workflow that consists of a File widget, two Scatter Plo
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=80mm]{graphics/ch-workflows/workflow-fig2.png}%
+  \includegraphics[width=80mm]{workflow-fig2.png}%
   \caption{Workflow with a File widget that reads data from disk and sends it to the Scatter Plot and Data Table widget. The Data Table renders the data in a spreadsheet, while the Scatter Plot visualizes it. Selected data points from the plot are sent to two other widgets: Data Table (1) and Scatter Plot (1).}
   \label{fig:workflow-fig2}
 \end{figure}
@@ -24,7 +24,7 @@ The File widget reads data from your local disk. Open the File widget by double 
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=85mm]{graphics/ch-workflows/workflow-fig3.png}%
+  \includegraphics[width=85mm]{workflow-fig3.png}%
   \caption{\mutation\  workflows often start with a File widget. The brown-selected data set comprises of a 186 rows (genes) and 81 columns. Out of the 81 columns, 79 contain gene expressions of baker’s yeast under various conditions, one column (marked as a “meta attribute”) provides gene names, and one column contains the “class” value or gene function.}
   \label{fig:workflow-fig3}
 \end{figure}
@@ -35,7 +35,7 @@ The following is more of a side note, but it won’t hurt. Namely, the scatter p
 
 \begin{figure*}[h]
   \centering
-  \includegraphics[width=\linewidth]{graphics/ch-workflows/workflow-fig4b.png}
+  \includegraphics[width=\linewidth]{workflow-fig4b.png}
   \caption{Scatter Plot and Ranking}
   \label{fig:workflow-fig4}
 \end{figure*}
@@ -45,7 +45,7 @@ We can connect the output of the Data Table widget to the Scatter Plot widget to
 
 \begin{figure}
 %   \centering
-  \includegraphics[width=100mm]{graphics/ch-workflows/workflow-fig5.png}
+  \includegraphics[width=100mm]{workflow-fig5.png}
   \caption{In this workflow, we have switched on the option “Show channel names between widgets” in File/Preferences.}
   \label{fig:workflow-fig5}
 \end{figure}
@@ -57,7 +57,7 @@ How does \mutation\  distinguish between the primary data source and the data se
 \begin{figure*}[h]
 %   \centering
   \flushright
-  \includegraphics[width=100mm]{graphics/ch-workflows/workflow-fig6.png}
+  \includegraphics[width=100mm]{workflow-fig6.png}
 \label{fig:workflow-fig6}%
 \end{figure*}
 
@@ -66,7 +66,7 @@ The rows in the data set we are exploring in this lesson are gene profiles. We c
 \begin{figure*}[h]
 %   \centering
   \flushright
-  \includegraphics[width=80mm]{graphics/ch-workflows/workflow-fig7.png}%
+  \includegraphics[width=80mm]{workflow-fig7.png}%
 \label{fig:workflow-fig7}%
 \end{figure*}
 

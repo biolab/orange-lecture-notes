@@ -2,6 +2,8 @@
 main.pdf
 test.pdf
 
+.idea
+
 ## Orange workflow swp files
 *.ows.swp.p
 
