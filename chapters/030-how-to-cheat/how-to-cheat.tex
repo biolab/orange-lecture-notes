@@ -2,16 +2,16 @@
 \label{ch:how_to_cheat}
 
 \begin{wrapfigure}{o}{0.85\textwidth}
-    \includegraphics[scale=0.4]{graphics/ch-how_to_cheat/workflow-randomize.png}
+    \includegraphics[scale=0.4]{workflow-randomize.png}
 \end{wrapfigure}
 
 At this stage, \marginnote[-2cm]{This lesson has a strange title and it is not obvious why it was chosen. Maybe you, the reader, should tell us what does this lesson have to do with cheating.} the classification tree looks very good. There’s only one data point where it makes a mistake. Can we mess up the data set so bad that the trees will ultimately fail? Like, remove any existing correlation between features and the class? We can! There’s the \widget{Randomize} widget with class shuffling. Check out the chaos it creates in the \widget{Scatter Plot} visualization where there were nice clusters before randomization!
 
 \begin{figure*}[h]
     \infinitewidthbox{
-    \includegraphics[scale=0.3]{graphics/ch-how_to_cheat/scatterplot_iris.png}
-    \includegraphics[scale=0.4]{graphics/ch-how_to_cheat/randomize100.png}
-    \includegraphics[scale=0.3]{graphics/ch-how_to_cheat/scatterplot_iris_random.png}
+    \includegraphics[scale=0.3]{scatterplot_iris.png}
+    \includegraphics[scale=0.4]{randomize100.png}
+    \includegraphics[scale=0.3]{scatterplot_iris_random.png}
     }
     \caption{Left: scatter plot of the \textit{Iris} data set before randomization; right: scatter plot after shuffling 100\% of rows.}
 \end{figure*}
@@ -19,12 +19,12 @@ At this stage, \marginnote[-2cm]{This lesson has a strange title and it is not o
 Fine. There can be no classifier that can model this mess, right? Let’s make sure.
 
 \begin{figure}[h]
-    \includegraphics[scale=0.4]{graphics/ch-how_to_cheat/workflow_classification.png}
+    \includegraphics[scale=0.4]{workflow_classification.png}
     \caption{$\;$} % empty caption for correct alignment
 \end{figure}
 
 \begin{wrapfigure}{o}{0.85\textwidth}
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/confusion_randomized.png}
+    \includegraphics[scale=0.35]{confusion_randomized.png}
 \end{wrapfigure}
 
 And the result? Here is a screenshot of the \widget{Confusion Matrix}.
@@ -36,8 +36,8 @@ Most unusual. Despite shuffling all the classes, which destroyed any connection 
 Can we further improve accuracy on the shuffled data? Let us try to change some properties of the induced trees: in the \widget{Tree} widget, disable all early stopping criteria.
 
 \begin{figure}[h]
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/better_tree.png}
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/confusion_randomized_better.png}
+    \includegraphics[scale=0.35]{better_tree.png}
+    \includegraphics[scale=0.35]{confusion_randomized_better.png}
     \caption{After we disable 2--4 check box in the \widget{Tree} widget, our classifier starts behaving almost perfectly.}
 \end{figure}
 
@@ -45,7 +45,7 @@ Can we further improve accuracy on the shuffled data? Let us try to change some 
 Wow, almost no mistakes now. How is this possible? On a class-randomized data set?
 
 \begin{wrapfigure}{o}{0.85\textwidth}
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/tree_viewer.png}
+    \includegraphics[scale=0.35]{tree_viewer.png}
     \caption{In the build tree, there are 75 leaves. Remember, there are only 150 rows in the \textit{Iris} data set.}
 \end{wrapfigure}
 
@@ -56,7 +56,7 @@ Looks like the tree just memorized every data instance from the data set. No won
 Ha, if this is so, if a classifier remembers everything from a data set but without discovering any general patterns, it should perform miserably on any new data set. Let us check this out. We will split our data set into two sets, training and testing, train the classification tree on the training data set and then estimate its accuracy on the test data set.
 
 \begin{figure}[h]
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/workflow_data_sampler.png}
+    \includegraphics[scale=0.35]{workflow_data_sampler.png}
     \caption{Connect the \widget{Data Sampler} widget carefully. The \widget{Data Sampler} splits the data to a sample and out-of-sample (so called remaining data). The sample was given to the \widget{Tree} widget, while the remaining data was handed to the \widget{Predictions} widget. Set the \widget{Data Sampler} so that the size of these two data sets is about equal.}
 \end{figure}
 
@@ -65,7 +65,7 @@ Let’s check how the \widget{Confusion Matrix} looks after testing the classifi
 The first two classes are a complete fail. The predictions for ribosomal genes are a bit better, but still with lots of mistakes. On the class-randomized training data our classifier fails miserably. Finally, just as we would expect.
 
 \begin{figure}[h]
-    \includegraphics[scale=0.35]{graphics/ch-how_to_cheat/confusion_sampler.png}
+    \includegraphics[scale=0.35]{confusion_sampler.png}
     \caption{Confusion matrix if we estimate accuracy on a data set that was not used in learning.}
 \end{figure}
 

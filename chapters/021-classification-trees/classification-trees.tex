@@ -9,17 +9,17 @@ Let us load \textit{iris} data set, build a tree (widget \widget{Tree}) and visu
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-classification_trees/workflow-tree-viewer.png}
+    \includegraphics[scale=0.4]{workflow-tree-viewer.png}
 \end{figure}
 
 \begin{figure*}[h]
     \vspace{-0.4cm}
-    \includegraphics[scale=0.35]{graphics/ch-classification_trees/iris-data.png}
+    \includegraphics[scale=0.35]{iris-data.png}
     \label{fig:classification-predictions}
 \end{figure*}
 
 \begin{wrapfigure}{o}{1.0\textwidth}
-    \includegraphics[scale=0.35]{graphics/ch-classification_trees/tree-viewer.png}
+    \includegraphics[scale=0.35]{tree-viewer.png}
     \label{fig:classification-predictions}
 \end{wrapfigure}
 
@@ -31,7 +31,7 @@ We still have not been very explicit about what we mean by ``the most useful'' f
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-classification_trees/workflow-rank.png}
+    \includegraphics[scale=0.4]{workflow-rank.png}
     \caption{The \widget{Datasets} widget is set to load the \textit{Sailing} data set. To use the second \widget{Rank}, select a node in the \widget{Tree Viewer}.}
 \end{figure}
 
@@ -40,7 +40,7 @@ Besides the information gain, \widget{Rank} displays several other measures (inc
 \begin{figure}[h]
     \centering
     \vspace{-0.2cm}
-    \includegraphics[scale=0.4]{graphics/ch-classification_trees/rank.png}
+    \includegraphics[scale=0.4]{rank.png}
     \caption{For the whole \textit{Sailing} data set, \textit{Company} is the most class-informative feature according to all measures shown.}
 \end{figure}
 
@@ -50,14 +50,14 @@ Here is an interesting combination of a \widget{Tree Viewer} and a \widget{Scatt
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-classification_trees/workflow-inspection.png}
+    \includegraphics[scale=0.4]{workflow-inspection.png}
     \caption{Careful, the \widget{Data} widget needs to be connected to the \widget{Scatter Plot}'s \textit{Data} input, and \widget{Tree Viewer} to the \widget{Scatter Plot}'s \textit{Data Subset} input.}
 \end{figure}
 
 Just for fun, we have included a few other widgets in this workflow. In a way, a \widget{Tree Viewer} behaves like \widget{Select Rows}, except that the rules used to filter the data are inferred from the data itself and optimized to obtain purer data subsets.
 
 \begin{figure*}[h]
-  \infinitewidthbox{\includegraphics[scale=0.35]{graphics/ch-classification_trees/tree-viewer-selection.png} \includegraphics[scale=0.35]{graphics/ch-classification_trees/scatter-plot-subset.png}}
+  \infinitewidthbox{\includegraphics[scale=0.35]{tree-viewer-selection.png} \includegraphics[scale=0.35]{scatter-plot-subset.png}}
   \caption{In the \widget{Tree Viewer} we selected the rightmost node. All data instances coming to the selected node are highlighted in \widget{Scatter Plot}.}
 \end{figure*}
 

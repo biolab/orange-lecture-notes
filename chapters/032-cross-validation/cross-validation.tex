@@ -2,7 +2,7 @@
 
 \begin{wrapfigure}{o}{0.6\textwidth}
     \vspace{-0.5cm}
-    \includegraphics[scale=0.4]{graphics/ch-cross_validation/workflow.png}
+    \includegraphics[scale=0.4]{workflow.png}
 \end{wrapfigure}
 
 Estimating the accuracy may depend on a particular split of the data set. To increase robustness, we can repeat the measurement several times, each time choosing a different subset of the data for training. One such method is cross-validation. It is available in Orange through the \widget{Test and Score} widget.
@@ -13,7 +13,7 @@ This is another way to use the \widget{Tree} widget. In the workflows from the p
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-cross_validation/test_and_score.png}
+    \includegraphics[scale=0.4]{test_and_score.png}
     \caption{Cross validation splits the data sets into, say, 10 different non-overlapping subsets we call folds. In each iteration, one fold will be used for testing, while the data from all other folds will be used for training. In this way, each data instance will be used for testing exactly once.}
 \end{figure}
 
