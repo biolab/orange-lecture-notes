@@ -4,7 +4,7 @@
 Say that we are interested in finding clusters in our data. That is, we would like to identify groups of data instances that are close together, similar to each other. Consider a simple, two-featured data set (see the side note) and plot it in the Scatter Plot. How many clusters do we have? What defines a cluster? Which data instances should belong to the same cluster? How does the clustering algorithm actually work?
 
 \begin{marginfigure}
-    \includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/workflow_scatterplot.png}
+    \includegraphics[scale=0.4]{workflow_scatterplot.png}
     \caption{We will introduce clustering with a simple data set on students and their grades in English and Algebra.
 Load the data set from \url{http://file.biolab.si/text/grades.tab}.}
 \end{marginfigure}
@@ -15,8 +15,8 @@ First, we need to define what we mean by ``similar''. We will assume that all ou
     \vspace{1cm}
     \centering
     \infinitewidthbox{
-    \includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/grades_table.png}
-    \includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/grades_scatterplot.png}
+    \includegraphics[scale=0.4]{grades_table.png}
+    \includegraphics[scale=0.4]{grades_scatterplot.png}
     }
     \caption{There are different ways to measure the similarity between clusters. The estimate we have described is called average linkage. We could also estimate the distance through the two closest points in each clusters (single linkage), or through the two points that are furthest away (complete linkage).}
 \end{figure*}
@@ -29,12 +29,12 @@ One possible way to observe the results of clustering on our small data set with
 
 \begin{marginfigure}
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/distances.png}
+    \includegraphics[scale=0.4]{distances.png}
 \end{marginfigure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/workflow_clustering.png}
+    \includegraphics[scale=0.4]{workflow_clustering.png}
     \caption{$\;$} % empty caption for proper pagesetting
 \end{figure}
 
@@ -42,8 +42,8 @@ Couldn’t be simpler. Load the data, measure the distances, use them in hierarc
 
 \begin{figure*}[h]
     \centering
-    \newcommand{\clustering}{\includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/hierarchical_clustering.png}}
-    \newcommand{\plot}{\includegraphics[scale=0.4]{graphics/ch-hierarchical_clustering/scatterplot_clustered.png}}
+    \newcommand{\clustering}{\includegraphics[scale=0.4]{hierarchical_clustering.png}}
+    \newcommand{\plot}{\includegraphics[scale=0.4]{scatterplot_clustered.png}}
     \infinitewidthbox{
     \stackinset{r}{-0.5\linewidth}{t}{+0.3\linewidth}{\plot}{\clustering}\hspace{8cm}
     }
