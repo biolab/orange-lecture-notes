@@ -1,7 +1,7 @@
 \chapter{Regularization}
 \label{ch:regularization}
 
-There has to be some cure for overfitting. Something that helps us control it. To find it, let's check what are the values of the parameters $\theta$ under different degrees of polynomials actually are.
+There has to be some cure for overfitting. Something that helps us control it. To find it, let's check what are the values of the parameters $\theta$ under different degrees of polynomials.
 
 \begin{figure}[h]
     \centering
@@ -28,7 +28,7 @@ Here we go: we just reinvented regularization, a procedure that helps machine le
 
 \newpage
 
-The Linear Regression widget provides two types of regularization. \marginnote{Internally, if no learner is present on its input, the Polynomial Regression widget would use just its ordinary, non-regularized linear regression.}Ridge regression is the one we have talked about and minimizes the sum of squared coefficients $\theta$. Lasso regression minimizes the sum of absolute value of coefficients. Although the difference may seem negligible, the consequences are that lasso regression may result in a large proportion of coefficients $\theta$ being zero, in this way performing feature subset selection.
+The Linear Regression widget provides two types of regularization. \marginnote{Internally, if no learner is present on its input, the Polynomial Regression widget would use just ordinary, non-regularized linear regression.}Ridge regression is the one we have talked about and minimizes the sum of squared coefficients $\theta$. Lasso regression minimizes the sum of absolute value of coefficients. Although the difference may seem negligible, the consequences are that lasso regression may result in a large proportion of coefficients $\theta$ being zero, in this way performing feature subset selection.
 
 % should it be so small?
 \begin{marginfigure}

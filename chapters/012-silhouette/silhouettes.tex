@@ -1,7 +1,7 @@
 \chapter{Silhouettes}
 \label{ch:silhouettes}
 
-\newthought{Consider a two-feature data set} which we have painted in the Paint Data widget. We send it to the k-means clustering, tell it to find three clusters, and display the clustering in the scatter plot.\marginnote{Don't get confused: we paint data and/or visualize it with Scatter plots, which show only two features. This is just for an illustration! Most data sets contain many features and methods like k-Means clustering take into account all features, not just two.}
+\newthought{Consider a two-feature data set} which we have painted in the \widget{Paint Data} widget. We send it to the k-means clustering, tell it to find three clusters, and display the clustering in the scatter plot.\marginnote{Don't get confused: we paint data and/or visualize it with Scatter plots, which show only two features. This is just for an illustration! Most data sets contain many features and methods like k-Means clustering take into account all features, not just two.}
 
 \begin{marginfigure}
     \centering
@@ -25,9 +25,9 @@ The data points in the green cluster are well separated from those in the other 
 
 We will invent a scoring measure for this and we will call it a silhouette (because this is how it's called). Our goal: a silhouette of 1 (one) will mean that the data instance is well rooted in the cluster, while the score of 0 (zero) will be assigned to data instances on the border between two clusters.
 
-For a given data point (say the blue point in the image on the left), we can measure the distance to all the other points in its cluster and compute the average. Let us denote this average distance with A. The smaller A, the better.
+For a given data point (say the blue point in the image on the left), we can measure the distance to all the other points in its cluster and compute the average. Let us denote this average distance with A. The smaller the A, the better.
 
-On the other hand, we would like a data point to be far away from the points in the closest neighboring cluster. The closest cluster to our blue data point is the red cluster. We can measure the distances between the blue data point and all the points in the red cluster, and again compute the average. Let us denote this average distance as B. The larger B, the better.
+On the other hand, we would like a data point to be far away from the points in the closest neighboring cluster. The closest cluster to our blue data point is the red cluster. We can measure the distances between the blue data point and all the points in the red cluster, and again compute the average. Let us denote this average distance as B. The larger the B, the better.
 
 \begin{marginfigure}
     \centering
@@ -37,10 +37,9 @@ On the other hand, we would like a data point to be far away from the points in 
 
 The point is well rooted within its own cluster if the distance to the points from the neighboring cluster (B) is much larger than the distance to the points from its own cluster (A), hence we compute B-A. We normalize it by dividing it with the larger of these two numbers, S  = (B -A) / max{A, B}. Voilá, S is our silhouette score.
 
-Orange has a Silhouette Plot widget that displays the values of the
-C3 is the green cluster, and all its points have large silhouettes. Not so for the other two. 
+Orange has a \widget{Silhouette Plot} widget that displays the values of the silhouette score for each data instance. We can also choose a particular data instance in the silhouette plot and check out its position in the scatter plot.
 
-Below we selected three data instances with the worst silhouette scores. Can you guess where the lie in the scatter plot? silhouette score for each data instance. We can also choose a particular data instance in the silhouette plot and check out its position in the scatter plot.
+\marginnote{C3 is the green cluster, and all its points have large silhouettes. Not so for the other two.}
 
 \begin{figure}[h]
     \centering
@@ -48,7 +47,7 @@ Below we selected three data instances with the worst silhouette scores. Can you
     \caption{$\;$} % empty caption for proper pagesetting
 \end{figure}
 
-This of course looks great for data sets with two features, where the scatter plot reveals all the information. In higher-dimensional data, the scatter plot shows just two features at a time, so two points that seem close in the scatter plot may be actually far apart when all features - perhaps thousands of gene expressions - are taken into account. \marginnote{We selected three data instances with the worst silhouette scores. Can you guess where the lie in the scatter plot?}
+This of course looks great for data sets with two features, where the scatter plot reveals all the information. In higher-dimensional data, the scatter plot shows just two features at a time, so two points that seem close in the scatter plot may be actually far apart when all features - perhaps thousands of gene expressions - are taken into account. \marginnote{We selected three data instances with the worst silhouette scores. Can you guess where they lie in the scatter plot?}
 
 \begin{figure}[h!]
     \centering
@@ -58,7 +57,7 @@ This of course looks great for data sets with two features, where the scatter pl
 
 \newpage
 
-The total quality of clustering - the silhouette of the clustering - is the average silhouette across all points. When the k-Means widget searches for the optimal number of clusters, it tries different number of clusters and displays the corresponding silhouette scores.
+The total quality of clustering - the silhouette of the clustering - is the average silhouette across all points. When the \widget{k-Means} widget searches for the optimal number of clusters, it tries a different number of clusters and displays the corresponding silhouette scores.
 Ah, one more thing: Silhouette Plot can be used on any data, not just on data sets that are the output of clustering. We could use it with the iris data set and figure out which class is well separated from the other two and, conversely, which data instances from one class are similar to those from another.
 
 We don't have to group the instances by the class. For instance, the silhouette on the left would suggest that the patients from the heart disease data with typical anginal pain are similar to each other (with respect to the distance/similarity computed from all features), while those with other types of pain, especially non-anginal pain are not clustered together at all.

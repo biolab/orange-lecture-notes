@@ -1,7 +1,7 @@
 \chapter{Hierarchical Clustering}
 \label{ch:hierarchical_clustering}
 
-Say that we are interested in finding clusters in our data. That is, we would like to identify groups of data instances that are close together, similar to each other. Consider a simple, two-featured data set (see the side note) and plot it in the Scatter Plot. How many clusters do we have? What defines a cluster? Which data instances should belong to the same cluster? How does the clustering algorithm actually work?
+\newthought{We are interested in finding clusters in our data}. That is, we would like to identify groups of data instances that are close together, similar to each other. Consider a simple, two-featured data set (see the side note) and plot it in the \widget{Scatter Plot}. How many clusters do we have? What defines a cluster? Which data instances should belong to the same cluster? How does the clustering algorithm actually work?
 
 \begin{marginfigure}
     \includegraphics[scale=0.4]{workflow_scatterplot.png}
@@ -9,7 +9,7 @@ Say that we are interested in finding clusters in our data. That is, we would li
 Load the data set from \url{http://file.biolab.si/text/grades.tab}.}
 \end{marginfigure}
 
-First, we need to define what we mean by ``similar''. We will assume that all our data instances are described (profiled) with continuous features. One simple measure of similarity is the Euclidean distance. So, we would like to group data instances with small Euclidean distances.
+First, we need to define what we mean by "similar". We will assume that all our data instances are described (profiled) with continuous features. One simple measure of similarity is the Euclidean distance. So, we would like to group data instances with small Euclidean distances.
 
 \begin{figure*}[h]
     \vspace{1cm}
@@ -25,11 +25,11 @@ Next, we need to define a clustering algorithm. Say that we start with each data
 
 \clearpage
 
-One possible way to observe the results of clustering on our small data set with grades is through the following workflow:
+One possible way to observe the results of clustering on our small data set with grades is with the following workflow:
 
 \begin{marginfigure}
     \centering
-    \includegraphics[scale=0.4]{distances.png}
+    \includegraphics[scale=0.6]{distances.png}
 \end{marginfigure}
 
 \begin{figure}[h]

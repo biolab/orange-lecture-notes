@@ -17,27 +17,27 @@ Consider images. When we, humans, see an image, our neural networks go from pixe
     \label{fig:embedding}
 \end{wrapfigure}
 
-Deep learning requires a lot of data (thousands, possibly millions of data instances) and processing power to prepare the network. We will use one which is already prepared. Even so, embedding takes time, so Orange doesn't do it locally but uses a server invoked through the Image Embedding widget.
+Deep learning requires a lot of data (thousands, possibly millions of data instances) and processing power to prepare the network. We will use one which is already prepared. Even so, embedding takes time, so Orange doesn't do it locally but uses a server invoked through the \widget{Image Embedding} widget.
 
 \newpage
 
 Image embedding describes the images with a set of 2048 features appended to the table with meta features of images.
 
-\begin{figure}[h]
+\begin{figure*}[h]
     \centering
     \includegraphics[scale=0.45]{data-table.png}
     \caption{$\;$}
-\end{figure}
+\end{figure*}
 
 We have no idea what these features are, except that they represent some higher-abstraction concepts in the deep neural network (ok, this is not very helpful in terms of interpretation). Yet, we have just described images with vectors that we can compare and measure their similarities and distances. Distances? Right, we could do clustering. Let's cluster the images of animals and see what happens.
 
-\begin{figure}[h]
+\begin{figure*}[h]
     \centering
     \includegraphics[scale=0.6]{workflow-clustering.png}
     \caption{$\;$}
-\end{figure}
+\end{figure*}
 
-To recap: in the workflow about we have loaded the images from the local disk, turned them into numbers, computed the distance matrix containing distances between all pairs of images, used the distances for hierarchical clustering, and displayed the images that correspond to the selected branch of the dendrogram in the image viewer. We used cosine similarity to assess the distances (simply because of the dendrogram looked better than with the Euclidean distance).
+To recap: in the workflow above we have loaded the images from the local disk, turned them into numbers, computed the distance matrix containing distances between all pairs of images, used the distances for hierarchical clustering, and displayed the images that correspond to the selected branch of the dendrogram in the \widget{Image Viewer}. We used cosine similarity to assess the distances (simply because the dendrogram looked better than with the Euclidean distance).
 
 \begin{marginfigure}
     \centering

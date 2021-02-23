@@ -1,7 +1,7 @@
 \chapter{Linear Regression}
 \label{ch:linear-regression}
 
-For a start,\marginnote{In the Paint Data widget, remove the Class-2 label from the list. If you have accidentally left it while painting, don't despair. The class variable will appear in the Select Columns widget, but you can "remove" it by dragging it into the Available Variables list.} let us construct a very simple data set. It will contain just one continuous input feature (let's call it x) and a continuous class (let's call it y). We will use Paint Data, and then reassign one of the features to be a class by using Select Columns and moving the feature y from "Features" to "Target Variable". It is always good to check the results, so we are including Data Table and Scatter Plot in the workflow at this stage. We will be modest this time and only paint 10 points and will use Put instead of the Brush tool.
+For a start,\marginnote{In the \widget{Paint Data} widget, remove the C2 label from the list. If you have accidentally left it while painting, don't despair. The class variable will appear in the \widget{Select Columns} widget, but you can "remove" it by dragging it into the Available Variables list.} let us construct a very simple data set. It will contain just one continuous input feature (let's call it x) and a continuous class (let's call it y). We will use Paint Data, and then reassign one of the features to be a class using \widget{Select Columns} and moving the feature y from "Features" to "Target Variable". It is always good to check the results, so we are including \widget{Data Table} and \widget{Scatter Plot} in the workflow at this stage. We will be modest this time and only paint 10 points and will use Put instead of the Brush tool.
 
 \begin{marginfigure}
     \centering
@@ -9,7 +9,7 @@ For a start,\marginnote{In the Paint Data widget, remove the Class-2 label from 
     \caption{$\;$}
 \end{marginfigure}
 
-We would like to build a model that predicts the value of class y from the feature x. Say that we would like our model to be linear, to mathematically express it as $h(x)=\theta0+\theta1x$. Oh, this is the equation of a line. So we would like to draw a line through our data points. The $\theta$0 is then an intercept and $\theta$1 is a slope. But there are many different lines we could draw. Which one is the best one? Which one is the one that fits our data the most?
+We would like to build a model that predicts the value of target variable y from the feature x. Say that we would like our model to be linear, to mathematically express it as $h(x)=\theta0+\theta1x$. Oh, this is the equation of a line. So we would like to draw a line through our data points. The $\theta$0 is then an intercept and $\theta$1 is a slope. But there are many different lines we could draw. Which one is the best one? Which one is the one that fits our data the most? Are they the same?
 
 \begin{figure*}[h]
     \centering
@@ -20,7 +20,7 @@ We would like to build a model that predicts the value of class y from the featu
     }
 \end{figure*}
 
-The question above requires us to define what a good fit is. Say, this could be the error the fitted model (the line) makes when it predicts the value of y for a given data point (value of x). The prediction is h(x), so the error is $h(x) - y$. We should treat the negative and positive errors equally, plus, let us agree, we would prefer punishing larger errors more severely than smaller ones. Therefore, we should square the errors for each data \marginnote{Do not worry about the strange name of the \widget{Polynomial Regression}, we will get there in a moment.} point and sum them up. We got our objective function! Turns out that there is only one line that minimizes this function. The procedure that finds it is called linear regression. For cases where we have only one input feature, Orange has a special widget in the Educational add-on called Polynomial Regression.
+The question above requires us to define what a good fit is. Say, this could be the error the fitted model (the line) makes when it predicts the value of y for a given data point (value of x). The prediction is h(x), so the error is $h(x) - y$. We should treat the negative and positive errors equally, plus, let us agree, we would prefer punishing larger errors more severely than smaller ones. Therefore, we should square the errors for each data \marginnote{Do not worry about the strange name of the \widget{Polynomial Regression}, we will get there in a moment.} point and sum them up. We got our objective function! Turns out that there is only one line that minimizes this function. The procedure that finds it is called linear regression. For cases where we have only one input feature, Orange has a special widget in the Educational add-on called \widget{Polynomial Regression}.
 
 \begin{marginfigure}
     \centering
@@ -34,11 +34,11 @@ The question above requires us to define what a good fit is. Say, this could be 
     \caption{$\;$}
 \end{figure}
 
-Looks ok. Except that these data points do not appear exactly on the line. We could say that the linear model is perhaps too simple for our data sets. Here is a trick: besides column x, the widget Polynomial Regression can add columns x2, x3… xn to our data set. The number n is a degree of polynomial expansion the widget performs. Try setting this number to higher values, say to 2, and then 3, and then, say, to 9. With the degree of 3, we are then fitting the data to a linear function $h(x) = \theta0 + \theta1x + \theta1x2 + \theta1x3$.
+Looks ok. Except that these data points do not appear exactly on the line. We could say that the linear model is perhaps too simple for our data set. Here is a trick: besides the column x, the widget Polynomial Regression can add columns x2, x3… xn to our data set. The number n is a degree of polynomial expansion the widget performs. Try setting this number to higher values, say to 2, and then 3, and then, say, to 8. With the degree of 3, we are then fitting the data to a linear function $h(x) = \theta0 + \theta1x + \theta1x2 + \theta1x3$.
 
 \newpage
 
-The trick we have just performed (adding higher order features to the data table and then performing linear regression) is called Polynomial Regression. Hence the name of the widget. We get something reasonable with polynomials of degree 2 or 3, but then the results get really wild. With higher degree polynomials, we totally overfit our data.
+The trick we have just performed (adding higher order features to the data table and then performing linear regression) is called polynomial regression. Hence the name of the widget. We get something reasonable with polynomials of degree 2 or 3, but then the results get really wild. With higher degree polynomials, we totally overfit our data.
 
 \begin{figure*}[h!]
     \centering
@@ -49,6 +49,6 @@ The trick we have just performed (adding higher order features to the data table
     }
 \end{figure*}
 
-\marginnote{It is quite surprising to see that linear regression model can result in fitting non-linear (univariate) functions. That is, functions with curves, such as those on the figures. How is this possible? Notice though that the model is actually a hyperplane (a flat surface) in the space of many features (columns) that are powers of x. So for the degree 2, $h(x)=\theta0+\theta1x+\theta1x2$ is a (flat) hyperplane. The visualization gets curvy only once we plot $h(x)$ as a function of x.}
+\marginnote{It is quite surprising to see that linear regression model can result in fitting non-linear (univariate) functions. That is, the functions with curves, such as those on the figures. How is this possible? Notice though that the model is actually a hyperplane (a flat surface) in the space of many features (columns) that are the powers of x. So for the degree 2, $h(x)=\theta0+\theta1x+\theta1x2$ is a (flat) hyperplane. The visualization gets curvy only once we plot $h(x)$ as a function of x.}
 
 Overfitting is related to the complexity of the model. In polynomial regression, the models are defined through parameters $\theta$. The more parameters, the more complex the model. Obviously, the simplest model has just one parameter (an intercept), ordinary linear regression has two (an intercept and a slope), and polynomial regression models have as many parameters as is the degree of the polynomial. It is easier to overfit with a more complex model, as this can adjust to the data better. But is the overfitted model really discovering the true data patterns? Which of the two models depicted in the figures above would you trust more?

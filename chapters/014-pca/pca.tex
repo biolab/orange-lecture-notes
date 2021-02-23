@@ -25,7 +25,10 @@ Think about what we've done. What are the properties of the best projection?
     \label{fig:pca3d}
 \end{wrapfigure}
 
-We want the data to be as spread out as possible. If we look from the direction parallel to the galactic plane, we see just a line. We lose one dimension, essentially keeping just a single coordinate for each star. (This is unfortunately exactly the perspective we see on the night sky: most stars are in the bright band we call the milky way, and we only see the outliers.) Among all possible projections, we attempt to find the one with the highest spread across the scatter plot. This projection may not be (and usually isn't) orthogonal to any axis; it may be projection to an arbitrary plane.
+We want the data to be as spread out as possible. If we look from the direction parallel to the galactic plane, we see just a line. We lose one dimension, essentially keeping just a single coordinate for each star. (This is unfortunately exactly the perspective we see on the night sky: most stars are in the bright band we call the milky way, and we only see the outliers.) Among all possible projections, we attempt to find the one with the highest spread across the scatter plot. This projection may not be (and usually isn't) orthogonal to any axis; it may be a projection to an arbitrary plane.
+
+\clearpage
+\newpage
 
 We again talk about two dimensional projection only for the sake of illustration. Imagine that we have ten thousand dimensional data and we would like, for some reason, keep just ten features. Yes, we can rank the features and keep the most informative, but what if these are correlated and tell us the same thing? Or what if our data does not have any target variable: with what should the "good features" be correlated? And what if the optimal projection is not aligned with the axes at all, so "good" features are combinations of the original ones?
 
@@ -45,7 +48,7 @@ Let's step back a bit: why would one who carefully measured expressions of ten t
 
 \newpage
 
-A technique that does this is called Principle Components Analysis, or PCA. The corresponding widget is simple: it receives the data and outputs the transformed data.
+A technique that does this is called Principle Components Analysis, or \widget{PCA}. The corresponding widget is simple: it receives the data and outputs the transformed data.
 
 \begin{wrapfigure}{o}{0.6\textwidth}
     \includegraphics[width=\linewidth]{workflow-scatterplot.png}
@@ -70,9 +73,9 @@ The PCA on the left shows the scree diagram for brown-selected data. Set like th
 
 \newpage
 
-The axes, PC1 and PC2, do not correspond to particular features in the original data, but to their linear combination. What we are looking at is a projection onto the plane, defined by the first two components. When you consider only two components, you can imagine that PCA put a hyperplane into multidimensional space and projecting all data into it.
+The axes, PC1 and PC2, do not correspond to particular features in the original data, but to their linear combination. What we are looking at is a projection onto the plane, defined by the first two components. When you consider only two components, you can imagine that PCA puts a hyperplane into multidimensional space and projects all data into it.
 
-Note that this is an unsupervised method: it does not care about the class. The classes in the projection may be be well separated or not. Let's add some colors to the points and see how lucky we are this time.
+Note that this is an unsupervised method: it does not care about the class. The classes in the projection may be well separated or not. Let's add some colors to the points and see how lucky we are this time.
 
 \begin{figure}[h]
     \centering
@@ -93,8 +96,8 @@ The data separated so well that these two dimensions alone may suffice for build
 
 \newpage
 
-In the above schema we use the ordinary Test and Score widget, but renamed it to "Test on original data" for better understanding of the workflow.
+In the above schema we uses the ordinary Test and Score widget, but renamed it to "Test on original data" for better understanding of the workflow.
 
-On the original data, Logistic regression gets 98\% AUC and classification accuracy. If we select just single component in PCA, we already get a 93\%, and if we take two, we get the same result as on the original data.
+On the original data, logistic regression gets 98\% AUC and classification accuracy. If we select just a single component in PCA, we already get a 93\%, and if we take two, we get the same result as on the original data.
 
-PCA is thus useful for multiple purposes. It can simplify our data by combining the existing features to a much smaller number of features without losing much data. The directions of these features may tell us something about the data. Finally, it can find us good two-dimensional projections that we can observe in scatter plots.
+PCA is thus useful for multiple purposes. It can simplify our data by combining the existing features to a much smaller number of features without losing much information. The directions of these features may tell us something about the data. Finally, it can find us good two-dimensional projections that we can observe in scatter plots.
