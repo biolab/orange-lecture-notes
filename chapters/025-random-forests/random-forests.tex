@@ -6,7 +6,7 @@
     \includegraphics[scale=0.4]{workflow.png}
 \end{wrapfigure}
 
-Random forests, a modeling technique introduced in 2001, is still one of the best performing classification and regression techniques. Instead of building a tree by always choosing the a feature that seems to separate best at that time, it builds many trees in slightly random ways. Therefore the induced trees are different. For the final prediction the trees vote for the best class.
+Random forests, a modeling technique introduced in 2001, is still one of the best performing classification and regression techniques. Instead of building a tree by always choosing the one feature that seems to separate best at that time, it builds many trees in slightly random ways. Therefore the induced trees are different. For the final prediction the trees vote for the best class.
 
 \begin{figure}[h]
     \centering
@@ -16,7 +16,7 @@ Random forests, a modeling technique introduced in 2001, is still one of the bes
 
 There are two sources of randomness: (1) training data is sampled with replacement, and (2) the best feature for a split is chosen among a subset of randomly chosen features.
 
-Which features are the most important? The creators of random forests also defined a procedure for computing feature importances from random forests. In Orange, you can use it with the Rank widget.
+Which features are the most important? The creators of random forests also defined a procedure for computing feature importances from random forests. In Orange, you can use it with the \widget{Rank} widget.
 
 \begin{figure}[h]
     \centering

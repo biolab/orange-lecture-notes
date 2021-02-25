@@ -1,9 +1,9 @@
 \chapter{Basic data exploration}
 \label{ch:basic_data_exploration}
 
-\newthought{Let us consider another problem} Let us consider another problem, this time from clinical medicine. We will dig for something interesting in the data and explore it a bit with visualization widgets. You will get to know Quasar better, and also learn about several interesting visualizations.
+\newthought{Let us consider another problem}, this time from clinical medicine. We will dig for something interesting in the data and explore it with visualization widgets. You will get to know \mutation better, and also learn about several interesting visualizations.
 
-We will start with an empty canvas; to clean it from our previous lesson, use either File/New or select all the widgets and remove them (use the backspace/delete key, or Cmd-backspace if you are on Mac).
+We will start with an empty canvas; to clean it from our previous lesson, use either File/New or select all the widgets and remove them (use the backspace/delete key).
 
 Now again, add the File widget and open another documentation data set: heart\_disease. How does the data look like?
 
@@ -19,35 +19,29 @@ Let us check whether common visualizations tell us anything interesting. (Hint: 
 \begin{figure}[h]
   \centering
   \includegraphics[width=50mm]{basic_data_exploration-fig2.png}%
-  \caption{Quick check with common statistics and other visualization widgets.}
+  \caption{Quick check with common statistics and visualization widgets.}
   \label{fig:basic_data_exploration-fig2}
 \end{figure}
 
 \newpage
-Data can also be split by the value of features—in this case—the gender.
+Data can also be split by the value of features, in this case the gender.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=90mm]{basic_data_exploration-fig3.png}%
+  \includegraphics[width=90mm]{select-rows-workflow.png}%
   \caption{The two Distributions widgets get different data: the upper gets the selected rows and the lower gets the rest. Double-click the connection between the widgets to access setup dialog, as you've learned in the previous lesson.}
   \label{fig:basic_data_exploration-fig3}
 \end{figure}
 
 In the Select Rows widget, we select the female patients. You can also add other conditions. Selection of data instances provides a powerful combination with visualization of data distribution. Try having at least two widgets open at the same time and explore the data.
 
-\begin{marginfigure}
-%   \centering
-  \includegraphics[width=\linewidth]{basic_data_exploration-fig4.png}%
-  \caption{Select Rows and Distributions widget}
-  \label{fig:basic_data_exploration-fig4}
-\end{marginfigure}
-
 \begin{figure*}[h]
-%   \centering
-  \flushright
-  \includegraphics[width=115mm]{basic_data_exploration-fig5.png}
-%   \caption{Scatter Plot and Ranking}
-  \label{fig:basic_data_exploration-fig5}
+  \centering
+  \newcommand{\selrow}{\includegraphics[scale=0.4]{select-rows.png}}
+  \newcommand{\distrib}{\includegraphics[scale=0.4]{distributions.png}}
+  \infinitewidthbox{
+  \stackinset{r}{-0.55\linewidth}{t}{+0.1\linewidth}{\distrib}{\selrow}\hspace{8cm}
+  }
 \end{figure*}
 
 There are two less known — but great — visualizations for observing interactions between features. 
@@ -64,11 +58,9 @@ What can you read from this diagram?
   \label{fig:basic_data_exploration-fig6}
 \end{figure}
 
-Another visualization, Sieve diagram also splits a rectangle horizontally and vertically, but with independent cuts, so the areas correspond to the expected number of data instances if the observed variables were independent. For instance, 1/4 of patients are older than 60, and 1/3 of patients are female, so the area of the bottom right rectangle is 1/12 of the total area. With roughly 300 patients, we would expect 1/12 × 300 = 25 older women in our data. As a matter of fact, there are 34. Sieve diagram shows the difference between the expected and the observed frequencies by the grid density and the color of the field.
-
-\begin{figure}
-  \flushright
-  \includegraphics[width=70mm]{basic_data_exploration-fig7.png}
+\begin{wrapfigure}{o}{0.9\textwidth}
+  \includegraphics[scale=0.6]{basic_data_exploration-fig7.png}
   \caption{See the Score Combinations button? Guess what it does? And how it scores the combinations? (Hint: there are some Greek letters at the bottom of the widget.)}
-  \label{fig:basic_data_exploration-fig7}
-\end{figure}
+\end{wrapfigure}
+
+Another visualization, Sieve diagram also splits a rectangle horizontally and vertically, but with independent cuts, so the areas correspond to the expected number of data instances if the observed variables were independent. For instance, 1/4 of patients are older than 60, and 1/3 of patients are female, so the area of the bottom right rectangle is 1/12 of the total area. With roughly 300 patients, we would expect 1/12 × 300 = 25 older women in our data. As a matter of fact, there are 34. Sieve diagram shows the difference between the expected and the observed frequencies by the grid density and the color of the field.
