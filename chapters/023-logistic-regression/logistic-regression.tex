@@ -6,7 +6,7 @@ Logistic regression is one of the best-known classifiers. The model returns the 
 Second, it tries to find an optimal plane that separates instances with the target value from the rest. Then it uses logistic function to transform the distance to the plane into probabilities. The further away from the plane an instance will be, the higher the probability it belongs to the class on that side of the plane. The closer it is to the decision boundary (the plane), the more uncertain the prediction becomes (i.e. it gets close to 0.5).
 
 \begin{marginfigure}
-    \includegraphics[width=60mm]{logistic-regression.png}%
+    \includegraphics[width=\textwidth]{logistic-regression.png}%
     \caption{Can you guess what would the probability for belonging to the blue class be for A, B, and C?}
     \label{fig:logreg}
   \end{marginfigure}
@@ -14,7 +14,7 @@ Second, it tries to find an optimal plane that separates instances with the targ
 Logistic regression tries to find such a plane that all points from one class are as far away from the boundary (in the correct direction) as possible.
 
 \begin{marginfigure}
-    \includegraphics[width=60mm]{workflow.png}%
+    \includegraphics[width=\textwidth]{workflow.png}%
     \label{fig:workflow}
   \end{marginfigure}
 
@@ -22,8 +22,8 @@ A great thing about \widget{Logistic Regression} is that we can interpret it wit
 
 \begin{figure}[h]
     \centering
-    \vspace{-0.2cm}
     \includegraphics[scale=0.4]{nomogram.png}
+    \caption{$\;$}
 \end{figure}
 
 Another characteristic of logistic regression is that it observes all variables at once and takes the correlation into account. If some variables are correlated, their importance will be spread among them.

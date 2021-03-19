@@ -1,0 +1,86 @@
+\documentclass[symmetric, justified, a4paper]{tufte-book}
+
+%% configuration, packages
+
+% Switch this variable true/false to print or hide lecturer notes.
+\newcommand{\printlecnotes}{true}
+
+\include{config}
+
+\makeindex
+
+% Book metadata
+\title{Introduction to Data Science, pt 2.}
+\author[Biolab and Collaborators]{Biolab and Collaborators}
+\publisher{Biolab}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% full title page
+\maketitle
+
+\include{ch-copyright}
+
+\tableofcontents
+
+% Start the main matter (normal chapters)
+\mainmatter
+
+%%%% ORANGE %%%%
+
+% \subimport{chapters/001-workflows/}{workflows}
+% \subimport{chapters/002-basic-data-exploration/}{basic-data-exploration}
+% \subimport{chapters/003-saving-your-work/}{saving}
+% \subimport{chapters/004-loading-data/}{loading-data}
+
+% \subimport{assignments/001-data-inspection/}{data-inspection}
+
+% CLUSTERING
+
+% \subimport{chapters/010-hierarchical-clustering/}{hierarchical-clustering}
+% \subimport{chapters/011-animal-kingdom/}{animal-kingdom}
+
+% \subimport{assignments/010-clustering/}{clustering}
+
+% \subimport{chapters/013-kmeans-clustering/}{kmeans-clustering}
+% \subimport{chapters/012-silhouette/}{silhouettes}
+% 
+% \subimport{chapters/014-pca/}{pca}
+
+% IMAGE ANALYTICS
+
+% \subimport{chapters/img-001-image-embedding/}{image-embedding}
+
+% CLASSIFICATION
+\subimport{chapters/020-classification/}{classification}
+\subimport{chapters/021-classification-trees/}{classification-trees}
+\subimport{chapters/029-classification-accuracy/}{classification-accuracy}
+\subimport{chapters/025-random-forests/}{random-forests}
+
+\subimport{chapters/022-naive-bayes/}{naive-bayes}
+\subimport{chapters/027-more-classifiers/}{more-classifiers}
+\subimport{chapters/028-model-inspection/}{model-inspection}
+
+\subimport{assignments/031-model-explanation/}{model-explanation}
+
+% OVERFITTING
+\subimport{chapters/030-how-to-cheat/}{how-to-cheat}
+\subimport{chapters/032-cross-validation/}{cross-validation}
+
+\subimport{assignments/030-overfitting/}{overfitting}
+
+% REGRESSION
+
+\subimport{chapters/040-linear-regression/}{linear-regression}
+\subimport{chapters/041-regularization/}{regularization}
+
+% The back matter contains appendices, bibliographies, indices, glossaries, etc.
+\backmatter
+
+\bibliography{sample-handout}
+\bibliographystyle{plainnat}
+
+\end{document}
