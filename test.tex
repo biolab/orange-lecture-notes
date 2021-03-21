@@ -1,12 +1,19 @@
 \documentclass[symmetric, a4paper]{tufte-book}
 \include{config}
+
+%\renewcommand{\printlecnotes}{true}
+
 \begin{document}
 
-% To see the same chapter if it started on an odd page, uncomment the following two lines
+\newcommand\testfolder{chapters/spec-030-classification/}
+\newcommand\testname{spectra-classification}
+
+\subimport{\testfolder}{\testname}
+
 \cleardoublepage
 This page intentionally left black for the same document to start on the left page.
 
-\include{ch-spectral_pca}
+\subimport{\testfolder}{\testname}
 
 
 \end{document}
