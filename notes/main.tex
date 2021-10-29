@@ -1,0 +1,133 @@
+\documentclass[symmetric, justified, a4paper]{tufte-book}
+
+%% configuration, packages
+
+\input{../config}
+%\printnotes{}
+
+% Switch this variable true/false to print or hide lecturer notes.
+\renewcommand{\printlecnotes}{true}
+
+
+\makeindex
+
+%%
+% Book metadata
+\title{Using \mutation\thanks{Thanks to everyone who worked on this document.}}
+\author[Biolab and Collaborators]{Biolab and Collaborators}
+\publisher{Biolab}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% full title page
+\maketitle
+
+\input{../ch-copyright}
+
+\tableofcontents
+
+%\include{ch-introduction}
+
+% Start the main matter (normal chapters)
+\mainmatter
+
+%% I would like to have an option of not showing the figure number
+%% ? How do we avoid overlapping figure captions?
+
+%%%% ORANGE %%%%
+
+% \subimport{../chapters/en/001-workflows/}{workflows}
+% \subimport{../chapters/en/002-basic-data-exploration/}{basic-data-exploration}
+% \subimport{../chapters/en/003-saving-your-work/}{saving}
+% \subimport{../chapters/en/004-loading-data/}{loading-data}
+% \subimport{../assignments/en/001-data-inspection/}{data-inspection}
+
+% CLASSIFICATION
+
+% \subimport{../chapters/en/020-classification/}{classification}
+% \subimport{../chapters/en/021-classification-trees/}{classification-trees}
+% \subimport{../chapters/en/028-model-inspection/}{model-inspection}
+% \subimport{../chapters/en/022-naive-bayes/}{naive-bayes}
+% \subimport{../chapters/en/029-classification-accuracy/}{classification-accuracy}
+% \subimport{../assignments/en/032-decision-boundaries/}{decision-boundaries}
+
+% \subimport{../chapters/en/030-how-to-cheat/}{how-to-cheat}
+% \subimport{../chapters/en/025-random-forests/}{random-forests}
+% \subimport{../chapters/en/032-cross-validation/}{cross-validation}
+% \subimport{../assignments/en/030-overfitting/}{overfitting}
+
+%% Add "More Classifiers" or separate learner sections %%
+
+% \subimport{../chapters/en/027-more-classifiers/}{more-classifiers}
+% \subimport{../chapters/en/023-logistic-regression/}{logistic-regression}
+% \subimport{../chapters/en/024-svm/}{svm}
+% \subimport{../chapters/en/026-knn/}{knn}
+% \subimport{../assignments/en/031-model-explanation/}{model-explanation}
+
+% REGRESSION
+
+% \subimport{../chapters/en/040-linear-regression/}{linear-regression}
+% \subimport{../chapters/en/041-regularization/}{regularization}
+
+% CLUSTERING
+
+% \subimport{../chapters/en/010-hierarchical-clustering/}{hierarchical-clustering}
+% \subimport{../chapters/en/011-animal-kingdom/}{animal-kingdom}
+% \subimport{../chapters/en/013-kmeans-clustering/}{kmeans-clustering}
+% \subimport{../chapters/en/012-silhouette/}{silhouettes}
+% \subimport{../chapters/en/014-pca/}{pca}
+% \subimport{../chapters/en/015-mapping-the-data/}{mapping-the-data}
+% \subimport{../assignments/en/010-clustering/}{clustering}
+
+% \subimport{../assignments/en/011-clustering-vs-classification/}{clustering-classification}
+
+% IMAGE ANALYTICS
+% \subimport{../chapters/en/img-001-image-embedding/}{image-embedding}
+
+% TEXT MINING
+
+% \subimport{../chapters/en/text-001-introduction/}{text-introduction}
+% \subimport{../chapters/en/text-010-preprocessing/}{preprocessing-text}
+% \subimport{../chapters/en/text-011-concordances/}{concordances}
+% \subimport{../chapters/en/text-012-bag-of-words/}{bag-of-words}
+% \subimport{../assignments/en/text-001-bag-of-words/}{bag-of-words}
+
+% \subimport{../chapters/en/text-013-hierarchical-clustering/}{text-clustering}
+% \subimport{../assignments/en/text-002-clustering/}{clustering}
+
+% \subimport{../chapters/en/text-014-classification/}{text-classification}
+% \subimport{../chapters/en/text-015-logistic-regression/}{text-log-regression}
+% \subimport{../chapters/en/text-016-model-evaluation/}{text-model-evaluation}
+% \subimport{../chapters/en/text-017-word-enrichment/}{word-enrichment}
+% \subimport{../chapters/en/text-018-predictions/}{text-predictions}
+% \subimport{../assignments/en/text-003-classification/}{classification}
+
+% \subimport{../chapters/en/text-019-twitter/}{twitter}
+% \subimport{../chapters/en/text-020-sentiment-analysis/}{sentiment-analysis}
+% \subimport{../assignments/en/text-004-twitter/}{twitter}
+
+% NETWORK ANALYSIS
+
+% \subimport{../chapters/en/net-010-networks/}{networks}
+% \subimport{../chapters/en/net-011-network-analysis/}{network-analysis}
+% \subimport{../chapters/en/net-012-networks-from-distances/}{networks-from-distances}
+\subimport{../chapters/en/net-013-networks-from-text/}{networks-from-text}
+
+% GEO ANALYSIS
+
+% \subimport{../chapters/en/geo-010-geocoding/}{geocoding}
+
+% The back matter contains appendices, bibliographies, indices, glossaries, etc.
+\backmatter
+\nocite{*}
+
+\bibliography{../sample-handout}
+\bibliographystyle{plainnat}
+
+
+\printindex
+
+\end{document}

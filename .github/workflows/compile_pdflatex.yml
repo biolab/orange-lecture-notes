@@ -16,7 +16,7 @@ jobs:
     - name: LaTeX compilation
       uses: dante-ev/latex-action@master
       with:
-        root_file: main.tex
+        root_file: notes/main.tex
         compiler: latexmk # optional, default is latexmk
 
     - name: 'Upload Artifact'
