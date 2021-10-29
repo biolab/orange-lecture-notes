@@ -1,0 +1,55 @@
+\documentclass[symmetric, justified, a4paper]{tufte-book}
+
+%% configuration, packages
+
+\input{../config}
+
+% Switch this variable true/false to print or hide lecturer notes.
+\renewcommand{\printlecnotes}{true}
+
+%\printnotes{}
+
+\makeindex
+
+%%
+% Book metadata
+\title{Uvod v rudarjenje besedil}
+\author[Biolab and Collaborators]{Biolab and Collaborators}
+\publisher{Biolab}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% full title page
+\maketitle
+
+\input{../ch-copyright}
+
+\tableofcontents
+
+% \include{../ch-introduction}
+
+% Start the main matter (normal chapters)
+\mainmatter
+
+%% I would like to have an option of not showing the figure number
+%% ? How do we avoid overlapping figure captions?
+
+%%%% ORANGE %%%%
+
+\subimport{../chapters/sl/001-delotoki/}{workflows}
+\subimport{../chapters/sl/002-priprava-besedil/}{priprava-besedil}
+
+
+% The back matter contains appendices, bibliographies, indices, glossaries, etc.
+\backmatter
+
+\bibliography{../sample-handout}
+\bibliographystyle{plainnat}
+
+
+\printindex
+
+\end{document}
