@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Twitter" qualified_name="orangecontrib.text.widgets.owtwitter.OWTwitter" project_name="Orange3-Text" version="" title="Twitter" position="(179.0, 116.0)" />
+		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(287.0, 117.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'allow_retweets': False, 'collecting': False, 'controlAreaVisible': True, 'language': None, 'limited_search': True, 'max_tweets': 100, 'mode': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x08\xeb\x00\x00\x00\xe0\x00\x00\nu\x00\x00\x02\xc0\x00\x00\x07A\x00\x00\x01\x1f\x00\x00\x08\xcb\x00\x00\x02\xe3\x00\x00\x00\x01\x02\x00\x00\x00\x07\x80\x00\x00\x08\xeb\x00\x00\x00\xfc\x00\x00\nu\x00\x00\x02\xc0', 'text_includes': ['Content'], 'word_list': ['#javnisektor'], '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01m\x00\x00\x00Z\x00\x00\x05\x85\x00\x00\x02\xdc\x00\x00\x01m\x00\x00\x00v\x00\x00\x05\x85\x00\x00\x02\xdc\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x01m\x00\x00\x00v\x00\x00\x05\x85\x00\x00\x02\xdc', 'show_tokens': False, '__version__': 1, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
