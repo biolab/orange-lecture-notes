@@ -18,6 +18,7 @@ jobs:
       with:
         root_file: notes/main.tex
         compiler: latexmk # optional, default is latexmk
+        working_directory: notes
 
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v2
