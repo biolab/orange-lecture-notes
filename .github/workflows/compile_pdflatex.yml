@@ -23,7 +23,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: pdf
-        path: main.pdf
+        path: notes/main.pdf
         retention-days: 30
         if-no-files-found: error
 
@@ -34,7 +34,7 @@ jobs:
         git config --global user.name "$GITHUB_ACTOR"
         git fetch --all
         git checkout pdf
-        mv main.pdf Quasar-case_studies.pdf
+        mv notes/main.pdf Quasar-case_studies.pdf
         git add Quasar-case_studies.pdf
         git commit -m "pdf compile"
         git push origin pdf
