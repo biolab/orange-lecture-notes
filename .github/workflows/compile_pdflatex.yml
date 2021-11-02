@@ -16,7 +16,7 @@ jobs:
     - name: LaTeX compilation
       uses: dante-ev/latex-action@master
       with:
-        root_file: notes/main.tex
+        root_file: main.tex
         compiler: latexmk # optional, default is latexmk
         working_directory: notes
 
