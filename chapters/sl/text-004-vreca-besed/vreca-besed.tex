@@ -3,7 +3,8 @@
 
 Sedaj imamo predprocesirano besedilo, s pravimi enotami, ampak še vedno pa ne moremo odkriti nikakršnih vzorcev v besedilu. Za to potrebujemo številke in preprost način, kako spremenimo besedila v številske vektorje je… da preštejemo besede v vsakem dokumentu!
 
-\begin{table}
+\begin{table*}
+    \centering
     \begin{tabular}{ l c c c c c c }
         \hline
          &this&is&an&example&another&apple\\
@@ -14,9 +15,9 @@ Sedaj imamo predprocesirano besedilo, s pravimi enotami, ampak še vedno pa ne m
         \hline
     \end{tabular}
     \caption{ }
-\end{table}
+\end{table*}
 
-Gradnik Bag of Words ustvari tabelo z besedami v stolpcih in dokumenti v vrsticah. Vrednosti so pojavitve besed v vsakem dokumentu.
+Gradnik \textit{Bag of Words} ustvari tabelo z besedami v stolpcih in dokumenti v vrsticah. Vrednosti so pojavitve besed v vsakem dokumentu.
 
 \begin{marginfigure}[3cm]
     \includegraphics[width=\linewidth]{vreca-besed-workflow.png}
@@ -25,7 +26,7 @@ Gradnik Bag of Words ustvari tabelo z besedami v stolpcih in dokumenti v vrstica
 
 Besede lahko preprosto preštejemo (TF ali term frequency) ali pa besede utežimo glede na to, kako pogosto se pojavijo v dokumentih (IDF ali inverse document frequency). S TF-IDF bodo pogoste besede imele nizko vrednost, saj se pojavijo velikokrat pri velikem deležu dokumentov, medtem ko bodo imele pomembne besede visoko vrednost, saj se pojavijo pogosto v majhnem deležu dokumentov.
 
-Podatke pošilje v gradnik Bag of Words in od tam naprej v Data Table. Vidimo nov stolpec, ki vsebuje pojavitve besed za vsak dokument. Sedaj imamo številke in končno lahko pričnemo z analizo!
+Podatke pošilje v gradnik Bag of Words in od tam naprej v \textit{Data Table}. Vidimo nov stolpec, ki vsebuje pojavitve besed za vsak dokument. Sedaj imamo številke in končno lahko pričnemo z analizo!
 
 \begin{figure*}[h]
     \includegraphics[width=\linewidth]{vreca-besed-table.png}%

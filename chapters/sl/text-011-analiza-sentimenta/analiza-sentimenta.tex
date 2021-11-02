@@ -1,15 +1,15 @@
 \chapter{Analiza sentimenta}
 \label{ch:analiza-sentimenta}
 
-Kaj pa kakšni novi podatki? Na primer z omrežja Twitter? V gradniku Corpus kliknite na spustni meni in izberite election-2016-tweets.tab. Ta korpus vsebuje 6000 tvitov Hillary Clinton in Donalda Trumpa v času predvolilne kampanje leta 2016.
+Kaj pa kakšni novi podatki? Na primer z omrežja Twitter? V gradniku \textit{Corpus} kliknite na spustni meni in izberite \textit{election-2016-tweets.tab}. Ta korpus vsebuje 6000 tvitov Hillary Clinton in Donalda Trumpa v času predvolilne kampanje leta 2016.
 
 Najprej moramo podatke predobdelati. Uporabili bomo poseben razčlenjevalnik enot (tokenizer) Tweet, ki je bil naučen na miljonih tvitov.\marginnote{Tviti pogosto zahtevajo posebno predprocesiranje. Najprej odstranite vse povezave (remove url), ker so običajno nezanimive za analizo. Nato uporabite prednaučeni Tweet razčlenjevalnik, ki obdrži enote kot so ‘@omemba’, ‘\#oznaka’ and emotikoni :). Za konec uporabite še filter Regexp, ki odstrani ločila.}
 
-Tokrat bomo imeli kar veliko unikatnih besed in stvari lahko postanejo precej počasne. Število besed lahko zmanjšamo tako, da uporabimo tehniko Document frequency. Nižjo mejo bomo nastavili na 10 - tako bomo obdržali vse besede, ki se pojavijo v več kot 10 tvitih. Super, sedaj imamo znosnih 1000 enot.
+Tokrat bomo imeli kar veliko unikatnih besed in stvari lahko postanejo precej počasne. Število besed lahko zmanjšamo tako, da uporabimo tehniko \textit{Document frequency}. Nižjo mejo bomo nastavili na 10 - tako bomo obdržali vse besede, ki se pojavijo v več kot 10 tvitih. Super, sedaj imamo znosnih 1000 enot.
 
-Tokrat si bomo podatke pogledali z vidika čustev, ki jih tviti izražajo. Dodajte gradnik Sentiment Analysis. Ta deluje tako, da besede iz dokumentov primerja s slovarjem pozitivnih in negativnih besed in na koncu izračuna oceno, kakšno čustvo zaznamuje tvit - pozitivno, negativno ali nevtralno.
+Tokrat si bomo podatke pogledali z vidika čustev, ki jih tviti izražajo. Dodajte gradnik \textit{Sentiment Analysis}. Ta deluje tako, da besede iz dokumentov primerja s slovarjem pozitivnih in negativnih besed in na koncu izračuna oceno, kakšno čustvo zaznamuje tvit - pozitivno, negativno ali nevtralno.
 
-Preden pa pogledamo rezultat, bomo morali še nekaj spremenljivk umakniti iz pogleda (glejte sliko). Uporabite gradnik Select Columns in premaknite vse dodatne informacije o tvitih v polje meta attributes.
+Preden pa pogledamo rezultat, bomo morali še nekaj spremenljivk umakniti iz pogleda (glejte sliko). Uporabite gradnik \textit{Select Columns} in premaknite vse dodatne informacije o tvitih v polje meta attributes.
 
 \begin{figure}[h]
     \centering
@@ -22,7 +22,7 @@ Preden pa pogledamo rezultat, bomo morali še nekaj spremenljivk umakniti iz pog
     \label{fig:011-sentiment}
 \end{figure}
   
-Nato dodajmo gradnik Heat Map, ki prikazuje številske vrednosti stolpcev z barvno shemo. Modra polja imajo nizko vrednost, rumena pa visoko. Z drugimi besedami, kjer je vrednost spremenljivke compound morda, je tvit negativen, kjer pa je rumena, je pozitiven.
+Nato dodajmo gradnik \textit{Heat Map}, ki prikazuje številske vrednosti stolpcev z barvno shemo. Modra polja imajo nizko vrednost, rumena pa visoko. Z drugimi besedami, kjer je vrednost spremenljivke compound morda, je tvit negativen, kjer pa je rumena, je pozitiven.
 
 \begin{figure*}[h]
     \includegraphics[width=\linewidth]{sentiment-workflow.png}%
@@ -30,7 +30,7 @@ Nato dodajmo gradnik Heat Map, ki prikazuje številske vrednosti stolpcev z barv
     \label{fig:011-sentiment-workflow}
 \end{figure*}
 
-V prikazu lahko označimo negativne tvite in jih pogledamo v Corpus Viewerju ali pa pogledamo, kdo jih je napisal z gradnikom Box Plot.
+V prikazu lahko označimo negativne tvite in jih pogledamo v \textit{Corpus Viewerju} ali pa pogledamo, kdo jih je napisal z gradnikom \textit{Box Plot}.
 
 \begin{figure*}[h]
     \includegraphics[width=\linewidth]{sentiment-2.png}%
