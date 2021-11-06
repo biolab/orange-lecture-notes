@@ -1,0 +1,46 @@
+\chapter{Regularization}
+\label{ch:regularization}
+
+There has to be some cure for overfitting. Something that helps us control it. To find it, let's check what are the values of the parameters $\theta$ under different degrees of polynomials.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.6]{workflow-overfitting.png}
+    \caption{$\;$}
+\end{figure}
+
+With smaller degree polynomials values of $\theta$ stay small, but then as the degree goes up, the numbers get really large.
+
+\begin{figure*}[h]
+    \centering
+    \newcommand{\third}{\includegraphics[scale=0.55]{data-table-third.png}}
+    \newcommand{\eigth}{\includegraphics[scale=0.55]{data-table-eigth.png}}
+    \infinitewidthbox{
+    \stackinset{r}{-0.32\linewidth}{t}{+0.00\linewidth}{\eigth}{\third}\hspace{11cm}
+    }
+\end{figure*}
+
+\marginnote{Which inference of linear model would overfit more, the one with high $\lambda$ or the one with low $\lambda$? What should the value of $\lambda$ be to cancel regularization? What if the value of $\lambda$ is really high, say 1000?}
+
+More complex models can fit the training data better. The fitted curve can wiggle sharply. The derivatives of such functions are high, and so need be the coefficients $\theta$. If only we could force the linear regression to infer models with a small value of coefficients. Oh, but we can. Remember, we have started with the optimization function the linear regression minimizes — the sum of squared errors. We could simply add to this a sum of all $\theta$ squared. And ask the linear regression to minimize both terms. Perhaps we should weigh the part with $\theta$ squared, say, with some coefficient $\lambda$, just to control the level of regularization.
+
+Here we go: we just reinvented regularization, a procedure that helps machine learning models not to overfit the training data. To observe the effects of regularization, we can give Polynomial Regression our own learner, which supports these kind of settings.
+
+\newpage
+
+The Linear Regression widget provides two types of regularization. \marginnote{Internally, if no learner is present on its input, the Polynomial Regression widget would use just ordinary, non-regularized linear regression.}Ridge regression is the one we have talked about and minimizes the sum of squared coefficients $\theta$. Lasso regression minimizes the sum of absolute value of coefficients. Although the difference may seem negligible, the consequences are that lasso regression may result in a large proportion of coefficients $\theta$ being zero, in this way performing feature subset selection.
+
+% should it be so small?
+\begin{marginfigure}
+    \centering
+    \includegraphics[scale=0.4]{lin-reg-ridge.png}
+    \caption{$\;$}
+\end{marginfigure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.6]{workflow-ridge.png}
+    \caption{$\;$}
+\end{figure}
+
+Now for the test. Increase the degree of polynomial to the max. Use Ridge Regression. Does the inferred model overfit the data? How does the degree of overfitting depend on regularization strength?

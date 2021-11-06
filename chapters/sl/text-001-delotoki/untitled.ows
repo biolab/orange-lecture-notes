@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(168.0, 226.0)" />
+		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(523.0, 228.0)" />
+		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(332.0, 536.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(49.0, 26.0, 246.0, 85.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik Corpus.  Klikni dvakrat za odpiranje gradnika in izberi datoteko s korpusom.</text>
+		<arrow id="1" start="(167.0, 103.0)" end="(167.0, 185.0)" fill="#C1272D" />
+		<text id="2" type="text/plain" rect="(444.0, 25.0, 228.0, 69.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik Corpus Viewer.  Klikni dvakrat za branje kopusa.</text>
+		<arrow id="3" start="(224.0, 331.0)" end="(207.0, 246.0)" fill="#39B54A" />
+		<text id="4" type="text/plain" rect="(182.0, 332.0, 245.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Izhod gradnika 
+Corpus.</text>
+		<arrow id="5" start="(442.0, 335.0)" end="(477.0, 251.0)" fill="#39B54A" />
+		<text id="6" type="text/plain" rect="(379.0, 332.0, 211.0, 52.0)" font-family=".AppleSystemUIFont" font-size="16">Vhod v gradnik Corpus Viewer</text>
+		<arrow id="7" start="(338.0, 413.0)" end="(336.0, 246.0)" fill="#39B54A" />
+		<text id="8" type="text/plain" rect="(203.0, 419.0, 306.0, 52.0)" font-family=".AppleSystemUIFont" font-size="16">Komunikacijski kanal.  Prenese korpus iz gradnika Corpus v Corpus Viewer.</text>
+		<text id="9" type="text/plain" rect="(422.0, 523.0, 182.0, 59.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik,  ki ni povezan na drug gradnik.</text>
+		<text id="10" type="text/plain" rect="(605.0, 146.0, 197.0, 107.0)" font-family=".AppleSystemUIFont" font-size="16">Izhod gradnika Corpus Viewer pošlje ven dokumente,  ki so izbrani v gradniku.</text>
+		<text id="11" type="text/plain" rect="(612.0, 238.0, 254.0, 297.0)" font-family=".AppleSystemUIFont" font-size="16">Ta izhod ni uporabljen,  zato je označen s črtasto črto.  Dodatni Corpus Viewer lahko dodate tako, da kliknete na njegovo ikono v zbirki na levi in povežete izhod gradnika Corpus Viewer na Corpus Viewer (1).  Ko sta gradnika povezana preverite ali je izhod prvega widgeta prikazan v drugem. Ta primer deluje najbolje,  če imate oba gradnika odprata.</text>
+		<arrow id="12" start="(520.0000000000001, 100.0)" end="(520.0000000000001, 184.0)" fill="#C1272D" />
+		<arrow id="13" start="(419.0, 550.0000000000001)" end="(373.0, 539.0000000000001)" fill="#C1272D" />
+		<arrow id="14" start="(695.0, 264.0)" end="(566.0, 229.0)" fill="#39B54A" />
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVUgIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojBhn
+cmltbS10YWxlcy1zZWxlY3RlZC50YWKUjBFib29rLWV4Y2VycHRzLnRhYpSMUC9Vc2Vycy9wcmlt
+b3ovRG9jdW1lbnRzL3JldmVsby9tanUvcHJlZGxvZ2ktdmxhZGktZXhhbXBsZS96YWtvbmktby1y
+ZWdpc3RyaWgucGtslIwYZWxlY3Rpb24tdHdlZXRzLTIwMTYudGFilIwXZnJpZW5kcy10cmFuc2Ny
+aXB0cy50YWKUjAxhbmRlcnNlbi50YWKUZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAA
+AAAHcwAAARMAAAl8AAACrAAAB3MAAAEvAAAJfAAAAqwAAAABAAAAAAeAAAAHcwAAAS8AAAl8AAAC
+rJSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0
+dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojA50aXRsZV92YXJpYWJsZZSMBVRp
+dGxllEtnhpSMCnVzZWRfYXR0cnOUXZSMB0NvbnRlbnSUS2eGlGFK/f///4aUaAxLAXWMCmF0dHJp
+YnV0ZXOUfZSMCUFUVSBUb3BpY5RLAXOMBW1ldGFzlH2UKGgXSwOMCEFic3RyYWN0lEsDaBtLA4wN
+QVRVIE51bWVyaWNhbJRLA4wIQVRVIFR5cGWUSwF1dWJhdS4=
+</properties>
+		<properties node_id="1" format="pickle">gASVvwMAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAP///yb///2PAAADPv///+f///8m///9qwAAAz7////n
+AAAAAQAAAAAKAP///yb///2rAAADPv///+eUjAtzaG93X3Rva2Vuc5SJjAtfX3ZlcnNpb25fX5RL
+AYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJST
+lCmBlH2UKIwGdmFsdWVzlH2UKIwQZGlzcGxheV9mZWF0dXJlc5RdlCiMCUFUVSBUb3BpY5RLZYaU
+jAVUaXRsZZRLZ4aUjAhBYnN0cmFjdJRLZ4aUjAdDb250ZW50lEtnhpSMDUFUVSBOdW1lcmljYWyU
+S2eGlIwIQVRVIFR5cGWUS2WGlGVK/f///4aUjA9kaXNwbGF5X2luZGljZXOUXZQoSwBLAWWMDXJl
+Z2V4cF9maWx0ZXKUjACUSv////+GlIwOc2VhcmNoX2luZGljZXOUXZQoSwBLAUsCSwNLBEsFZYwS
+c2VsZWN0ZWRfZG9jdW1lbnRzlI+UKIw6QSBUYWxlIEFib3V0IHRoZSBCb3kgV2hvIFdlbnQgRm9y
+dGggdG8gTGVhcm4gV2hhdCBGZWFyIFdhc5SQSv7///+GlGgGSwF1jAphdHRyaWJ1dGVzlCmMBW1l
+dGFzlChoFEsDhpRoFksDhpRoGEsDhpRoGksDhpRoHF2UKIwQRG9tZXN0aWMgQW5pbWFsc5SMGU90
+aGVyIEFuaW1hbHMgYW5kIE9iamVjdHOUjB9PdGhlciBUYWxlcyBvZiB0aGUgU3VwZXJuYXR1cmFs
+lIwYU3VwZXJuYXR1cmFsIEFkdmVyc2FyaWVzlIwUU3VwZXJuYXR1cmFsIEhlbHBlcnOUjCBTdXBl
+cm5hdHVyYWwgUG93ZXJzIG9yIEtub3dsZWRnZZSMElN1cGVybmF0dXJhbCBUYXNrc5SMI1N1cGVy
+bmF0dXJhbCBvciBFbmNoYW50ZWQgUmVsYXRpdmVzlIwgV2lsZCBBbmltYWwgYW5kIERvbWVzdGlj
+IEFuaW1hbHOUjAxXaWxkIEFuaW1hbHOUjBdXaWxkIEFuaW1hbHMgYW5kIEh1bWFuc5RlhpR0lIwK
+Y2xhc3NfdmFyc5RoEl2UKIwMQW5pbWFsIFRhbGVzlIwOVGFsZXMgb2YgTWFnaWOUZYaUhZR1YmF1
+Lg==
+</properties>
+		<properties node_id="2" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAk9////1gAADMAAAAHlAAAJPf////IAAAzAAAAB5QAAAAEAAAAAB4AAAAk9
+////8gAADMAAAAHllIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
+bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

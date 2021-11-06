@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="image-rendering:pixelated"
+   version="1.2"
+   id="svg1882"
+   sodipodi:docname="silhouette.svg"
+   width="779.53888"
+   height="650.62549"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata1886">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1027"
+     id="namedview1884"
+     showgrid="false"
+     inkscape:zoom="1.07"
+     inkscape:cx="264.90472"
+     inkscape:cy="298.71687"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1882" />
+  <title
+     id="title1567">pyqtgraph SVG export</title>
+  <desc
+     id="desc1569">Generated with Qt and pyqtgraph</desc>
+  <defs
+     id="defs1571" />
+  <g
+     id="GraphicsScene_1"
+     transform="translate(-5.9609375,-0.5)">
+    <g
+       id="PlotItem_1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+      <g
+         id="AxisItem_1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1575"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <polyline
+             points="45.6688,620.563 784.9998,620.563"
+             id="polyline1573"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1585"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.49803904">
+          <polyline
+             points="180.9608,620.563 180.9608,617.2296699999999"
+             id="polyline1577"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="359.46479999999997,620.563 359.46479999999997,617.2296699999999"
+             id="polyline1579"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="537.9688,620.563 537.9688,617.2296699999999"
+             id="polyline1581"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="716.4728,620.563 716.4728,617.2296699999999"
+             id="polyline1583"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1595"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.33333297">
+          <polyline
+             points="91.7087,620.563 91.7087,618.063"
+             id="polyline1587"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="270.2128,620.563 270.2128,618.063"
+             id="polyline1589"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="448.7168,620.563 448.7168,618.063"
+             id="polyline1591"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="627.2208,620.563 627.2208,618.063"
+             id="polyline1593"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           transform="translate(46.1688,620.563)"
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1613"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <text
+             xml:space="preserve"
+             x="124.547"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1597"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.2</text>
+          <text
+             xml:space="preserve"
+             x="303.047"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1599"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.4</text>
+          <text
+             xml:space="preserve"
+             x="481.56299"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1601"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.6</text>
+          <text
+             xml:space="preserve"
+             x="660.06299"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1603"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.8</text>
+          <text
+             xml:space="preserve"
+             x="35.296902"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1605"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.1</text>
+          <text
+             xml:space="preserve"
+             x="213.797"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1607"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.3</text>
+          <text
+             xml:space="preserve"
+             x="392.31299"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1609"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.5</text>
+          <text
+             xml:space="preserve"
+             x="570.81299"
+             y="12.5938"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1611"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.7</text>
+        </g>
+        <g
+           id="QGraphicsTextItem_1"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+          <g
+             transform="translate(405.669,634.563)"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="g1617"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+            <text
+               xml:space="preserve"
+               x="4"
+               y="16.5625"
+               font-size="13"
+               font-weight="400"
+               font-style="normal"
+               id="text1615"
+               style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">x </text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="AxisItem_2"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1623"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <polyline
+             points="45.6688,1.0 45.6688,620.563"
+             id="polyline1621"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1633"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.49803904">
+          <polyline
+             points="46.1688,554.859 49.5021,554.859"
+             id="polyline1625"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="46.1688,391.014 49.5021,391.014"
+             id="polyline1627"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="46.1688,227.168 49.5021,227.168"
+             id="polyline1629"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="46.1688,63.3232 49.5021,63.3232"
+             id="polyline1631"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1641"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.33333297">
+          <polyline
+             points="46.1688,472.936 48.6688,472.936"
+             id="polyline1635"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="46.1688,309.091 48.6688,309.091"
+             id="polyline1637"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+          <polyline
+             points="46.1688,145.246 48.6688,145.246"
+             id="polyline1639"
+             style="vector-effect:non-scaling-stroke;fill:none" />
+        </g>
+        <g
+           transform="translate(1.5,1)"
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1657"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="558.328"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1643"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.2</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="394.48401"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1645"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.4</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="230.64101"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1647"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.6</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="66.796898"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1649"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.8</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="476.40601"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1651"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.3</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="312.56299"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1653"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.5</text>
+          <text
+             xml:space="preserve"
+             x="19.1875"
+             y="148.71899"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="text1655"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">0.7</text>
+        </g>
+        <g
+           id="QGraphicsTextItem_2"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+          <g
+             transform="rotate(-90,158,162)"
+             font-size="13"
+             font-weight="400"
+             font-style="normal"
+             id="g1661"
+             style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+            <text
+               xml:space="preserve"
+               x="4"
+               y="16.5625"
+               font-size="13"
+               font-weight="400"
+               font-style="normal"
+               id="text1659"
+               style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text', sans-serif;fill:#000000;fill-opacity:1;stroke:none">y </text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="InteractiveViewBox_1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <g
+           font-size="13"
+           font-weight="400"
+           font-style="normal"
+           id="g1667"
+           style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:none">
+          <path
+             d="m 45.6688,1 h 739.331 V 620.563 H 45.6688 V 1"
+             id="path1665"
+             inkscape:connector-curvature="0"
+             style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+        </g>
+        <clipPath
+           id="InteractiveViewBox_1_clip">
+          <path
+             d="M 45.6688,1 H 785 V 620.563 H 45.6688 V 1"
+             id="path1669"
+             inkscape:connector-curvature="0"
+             style="vector-effect:none;fill-rule:evenodd;stroke-width:1" />
+        </clipPath>
+        <g
+           clip-path="url(#InteractiveViewBox_1_clip)"
+           id="g1877">
+          <g
+             id="ChildGroup_1"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <clipPath
+               id="ChildGroup_1_clip">
+              <path
+                 d="M 45.6688,1 H 785 V 620.563 H 45.6688 V 1"
+                 id="path1672"
+                 inkscape:connector-curvature="0"
+                 style="vector-effect:none;fill-rule:evenodd;stroke-width:1" />
+            </clipPath>
+            <g
+               clip-path="url(#ChildGroup_1_clip)"
+               id="g1869">
+              <g
+                 id="ScatterPlotItem_1"
+                 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1677"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 224.964,356.489 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1675"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1681"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 226.685,279.659 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1679"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1685"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 316.207,319.611 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1683"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1689"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 70.0219,378.002 c 0,6.48934 -5.260663,11.75 -11.75,11.75 -6.489337,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.260663,-11.75 11.75,-11.75 6.489337,0 11.75,5.26066 11.75,11.75"
+                     id="path1687"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1693"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 292.105,444.076 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1691"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1697"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 80.3513,485.565 c 0,6.48934 -5.260663,11.75 -11.75,11.75 -6.489337,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.260663,-11.75 11.75,-11.75 6.489337,0 11.75,5.26066 11.75,11.75"
+                     id="path1695"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1701"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 157.822,421.027 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1699"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1705"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 216.356,496.321 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1703"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1709"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 371.298,188.999 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1707"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1713"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 350.639,121.388 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1711"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1717"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 434.996,144.437 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1715"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1721"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 479.757,182.852 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1719"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1725"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 395.4,27.6542 c 0,6.489337 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.260663 -11.75,-11.75 0,-6.489337 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.260663 11.75,11.75"
+                     id="path1723"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1729"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 486.644,61.4597 c 0,6.489337 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.260663 -11.75,-11.75 0,-6.489337 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.260663 11.75,11.75"
+                     id="path1727"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1733"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 555.507,10.7515 c 0,6.489337 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.260663 -11.75,-11.75 0,-6.489337 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.260663 11.75,11.75"
+                     id="path1731"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1737"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 565.836,118.314 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1735"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1741"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 583.052,179.779 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1739"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1745"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 617.483,459.443 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1743"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1749"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 603.711,499.395 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1747"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1753"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 593.381,568.542 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1751"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1757"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 667.409,510.151 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1755"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1761"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 720.778,600.811 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1759"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1765"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 774.147,516.297 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1763"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1769"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ffffff;fill-opacity:0;stroke:none">
+                  <path
+                     d="m 725.943,393.368 c 0,6.48934 -5.26066,11.75 -11.75,11.75 -6.48934,0 -11.75,-5.26066 -11.75,-11.75 0,-6.48934 5.26066,-11.75 11.75,-11.75 6.48934,0 11.75,5.26066 11.75,11.75"
+                     id="path1767"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:none;fill-rule:evenodd" />
+                </g>
+              </g>
+              <g
+                 id="ScatterPlotItem_2"
+                 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1774"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 223.464,357.489 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1772"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1778"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 225.185,280.659 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1776"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1782"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 314.707,320.611 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1780"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1786"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 68.5219,379.002 c 0,5.10863 -4.141373,9.25 -9.25,9.25 -5.108627,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.141373,-9.25 9.25,-9.25 5.108627,0 9.25,4.14137 9.25,9.25"
+                     id="path1784"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1790"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 290.605,445.076 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1788"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1794"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 78.8513,486.565 c 0,5.10863 -4.141373,9.25 -9.25,9.25 -5.108627,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.141373,-9.25 9.25,-9.25 5.108627,0 9.25,4.14137 9.25,9.25"
+                     id="path1792"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1798"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 156.322,422.027 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1796"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1802"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#46befa;fill-opacity:1;stroke:#3a9ed0;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 214.856,497.321 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1800"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1806"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 719.278,601.811 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1804"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1810"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 665.909,511.151 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1808"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1814"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 591.881,569.542 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1812"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1818"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 602.211,500.395 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1816"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1822"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 615.983,460.443 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1820"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1826"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 724.443,394.368 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1824"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1830"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#aaf22b;fill-opacity:1;stroke:#8eca24;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 772.647,517.297 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1828"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1834"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 554.007,11.7515 c 0,5.108627 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.141373 -9.25,-9.25 0,-5.108627 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.141373 9.25,9.25"
+                     id="path1832"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1838"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 564.336,119.314 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1836"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1842"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 581.552,180.779 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1840"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1846"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 393.9,28.6542 c 0,5.108627 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.141373 -9.25,-9.25 0,-5.108627 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.141373 9.25,9.25"
+                     id="path1844"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1850"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 433.496,145.437 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1848"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1854"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 349.139,122.388 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1852"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1858"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 369.798,189.999 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1856"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1862"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 485.144,62.4597 c 0,5.108627 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.141373 -9.25,-9.25 0,-5.108627 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.141373 9.25,9.25"
+                     id="path1860"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+                <g
+                   font-size="13"
+                   font-weight="400"
+                   font-style="normal"
+                   id="g1866"
+                   style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:#ed462f;fill-opacity:1;stroke:#c53a27;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                  <path
+                     d="m 478.257,183.852 c 0,5.10863 -4.14137,9.25 -9.25,9.25 -5.10863,0 -9.25,-4.14137 -9.25,-9.25 0,-5.10863 4.14137,-9.25 9.25,-9.25 5.10863,0 9.25,4.14137 9.25,9.25"
+                     id="path1864"
+                     inkscape:connector-curvature="0"
+                     style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="QGraphicsRectItem_1"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               transform="translate(45.6688,1)"
+               font-size="13"
+               font-weight="400"
+               font-style="normal"
+               id="g1874"
+               style="font-style:normal;font-weight:400;font-size:13px;font-family:'.SF NS Text';fill:none;stroke:none">
+              <rect
+                 x="0"
+                 y="0"
+                 width="739.33099"
+                 height="619.56299"
+                 id="rect1872"
+                 style="vector-effect:non-scaling-stroke" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
