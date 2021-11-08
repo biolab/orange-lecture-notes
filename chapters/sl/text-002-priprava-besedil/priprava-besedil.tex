@@ -10,17 +10,17 @@
 
 \begin{figure*}[h]
   \includegraphics[width=\linewidth]{preprocess.png}%
-  \caption{Preprocesiranje definira kaj je pomembno v podatikih. Je "Zdravnik" enako kot "zdravnik"? Naj upoštevamo besede kot so "in", "ali", "ko" ali naj jih izpustimo? Ali želimo upoštevati besedi "živel" in "živi" kot isto besedo? Preprocesiranje definira osnovne enote analize.}
+  \caption{Preprocesiranje definira kaj je pomembno v podatkih. Je ``Zdravnik'' enako kot ``zdravnik''? Naj upoštevamo besede kot so ``in'', ``ali'', ``ko'' ali naj jih izpustimo? Ali želimo upoštevati besedi ``živel'' in ``živi'' kot isto besedo? Preprocesiranje definira osnovne enote analize.}
   \label{fig:002-preprocess}
 \end{figure*}
 
-V gradniku \textit{Preprocess Text} smo vse besede pretvorili v male črke, vsako besedo smo obravnavali kot svojo \textit{menoto (token)} in odstranili ločila, na koncu pa smo odstranili tudi nepomenske besede (npr. ‘in’, ‘da’, ‘čeprav’). Takšno predprocesiranje ustvari sledeče enote:
+V gradniku \widget{Preprocess Text} smo vse besede pretvorili v male črke, vsako besedo smo obravnavali kot svojo \textit{enoto (token)} in odstranili ločila, na koncu pa smo odstranili tudi nepomenske besede (npr. ‘in’, ‘da’, ‘čeprav’). Takšno predprocesiranje ustvari sledeče enote, ki jim pravimo tudi pojavnice:
 
 \vspace{0.3cm}
-\noindent ``To je vzorčni stavek.'' → ``vzorčni'', ``stavek''
+\noindent ``To je vzorčni stavek.'' $\rightarrow$ ``vzorčni'', ``stavek''
 \vspace{0.3cm}
 
-Rezultate predprocesiranja si lahko pogledamo v gradniku \textit{Word Cloud}, kjer vidimo najpogostejše enote. S to vizualizacijo lahko identificiramo odvečne besede in nepravilnosti.\marginnote{Token je osnovna enota naše analize. Lahko je beseda, besedna zveza, stavek… S predprocesiranjem definiramo osnovne enote za analizo.}
+Rezultate predprocesiranja si lahko pogledamo v gradniku \widget{Word Cloud}, kjer vidimo najpogostejše pojavnice. S to vizualizacijo lahko identificiramo odvečne besede in nepravilnosti.\marginnote{Pojavnica je osnovna enota naše analize. Lahko je beseda, besedna zveza, stavek … S predprocesiranjem definiramo osnovne enote za analizo.}
 
  \newpage
 
@@ -44,21 +44,21 @@ V tem primeru vedno lahko naložimo seznam besed po meri. Odprite urejevalnik be
 
 Seznam besed naložite s klikom na ikono z mapo poleg opcije \textit{Stopwords} v razdelku \textit{Filtering}.
 
-Filtriramo lahko tudi besede, ki so preredke ali prepogoste. Redke besede se pojavijo običajno le v nekaj dokumentih, medtem ko so prepogoste besede presplošne ali pa nimajo pomena (stopwords). Da bi ohranili le besede, ki zares predstavljajo naš korpus dokumentov, uporabimo filtriranje Document frequency (Pogostost v besedilu). Če nastavimo vrednosti na 0,1 and 0,9, bomo obdržali le tiste besede, ki se pojavijo v več kot 10 \% in manj kot 90 \% dokumentov.
+Filtriramo lahko tudi besede, ki so preredke ali prepogoste. Redke besede se pojavijo običajno le v nekaj dokumentih, medtem ko so prepogoste besede presplošne ali pa nimajo pomena (stopwords). Da bi ohranili le besede, ki zares predstavljajo naš korpus dokumentov, uporabimo filtriranje \textit{Document frequency} (Pogostost v besedilu). Če nastavimo vrednosti na 0,1 in 0,9, bomo obdržali le tiste besede, ki se pojavijo v več kot 10 \% in manj kot 90 \% dokumentov.
 
 Predprocesiranje je ključ do uspešne analize besedil. Omenili smo le nekaj tehnik, sami pa lahko preizkusite še druge, na primer:
 
 \begin{itemize}
 
-\item \textit{normalizacija (Normalization)} pretvori vse besede v korene oz. osnovne oblike (na primer sinovi v sin)\marginnote{Pred kratkim smo za slovenščino dodali korenjenje z orodjem UDPipe}
+\item \textit{normalizacija (Normalization)} pretvori vse besede v korene oz. osnovne oblike (na primer sinovi v sin)\marginnote{Pred kratkim smo za slovenščino dodali korenjenje z orodjema UDPipe in Lemmagen.}
 \item \textit{n-grami} so večje enote, na primer bigrami (par zaporednih besed) in trigrami (trojke besed)
 \item \textit{oblikoskladenjsko označevanje} (POS tagging)\marginnote{Za razlago POS oznak glejte:
-http://nl.ijs.si/imp/msd/html-sl/} označi vsako enoto s njeno oblikoskladenjsko vlogo (sinovi → samostalnik, množina, oznaka = NNS)
+http://nl.ijs.si/imp/msd/html-sl/} označi vsako enoto z njeno oblikoskladenjsko vlogo (sinovi $\rightarrow$ samostalnik, množina, oznaka = NNS)
 
 \end{itemize}
 
 \begin{figure}[h]
   \includegraphics[width=\linewidth]{corpus-viewer-pos.png}%
-  \caption{Na sliki vidite gradnik Corpus Viewer, s katerim si lahko pogledamo naslove, besedila dokuemntov in enote na katere je preprocesiranje razbilo besedilo. V našem primeru imamo poleg enot prikazane tudi POS oznake.}
+  \caption{Na sliki vidite gradnik Corpus Viewer, s katerim si lahko pogledamo naslove, besedila dokumentov in pojavnice, na katere je predprocesiranje razbilo besedilo. V našem primeru imamo poleg pojavnic prikazane tudi POS oznake.}
   \label{fig:002-corpus-viewer-pos}
 \end{figure}

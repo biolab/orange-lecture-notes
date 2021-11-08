@@ -8,11 +8,11 @@ Vrnimo se h Grimmovim pravljicam in ustvarimo naslednji delotok:
     \includegraphics[width=\linewidth]{hc-workflow.png}%
     \caption{Enak delotok lahko preizkusite tudi na drugih podatkih, na primer na bookexcerpt.tab, ki vsebuje izvlečke knjig za odrasle in otroke.
     
-    V tem primeru smo za razliko od prejšnjega uporabili \textit{kosinusno razdaljo}. Pogostost besed iz vreče besed je predstavljena z vektorji, ki kažejo vsak v svojo smer glede na vsebino posameznega dokumenta. Kosinusna razdalja je kot med temi vektorji.}
+    V tem primeru smo za razliko od prejšnje uporabili \textit{kosinusno razdaljo}. Pogostost besed iz vreče besed je predstavljena z vektorji, ki kažejo vsak v svojo smer glede na vsebino posameznega dokumenta. Kosinusna razdalja je kot med temi vektorji.}
     \label{fig:005-hc-workflow}
   \end{figure}
 
-Gradnik \textit{Hierarchical Clustering} prikaže gruče v obliki dendrograma. Hierarchical Clustering povežite z gradnikom \textit{Corpus Viewer} in odprite oba gradnika. Izberite gručo v dendrogramu\marginnote{Beseda dendrogram je sestavljena iz grških besede dendro "drevo" in gramma “risba” in pomeni hierarhično vizualizacijo v obliki drevesa.} in v gradniku \textit{Corpus Viewer} poglejte, kateri dokumenti pripadajo izbrani skupini.
+Gradnik \widget{Hierarchical Clustering} prikaže gruče v obliki dendrograma. Hierarchical Clustering povežite z gradnikom \widget{Corpus Viewer} in odprite oba gradnika. Izberite gručo v dendrogramu\marginnote{Beseda dendrogram je sestavljena iz grških besede dendro “drevo” in gramma “risba” in pomeni hierarhično vizualizacijo v obliki drevesa.} in v gradniku \widget{Corpus Viewer} poglejte, kateri dokumenti pripadajo izbrani skupini.
 
 Raziščite različne gruče. Zakaj so nekatere magične pravljice (Tales of Magic) pomešane z živalskimi pravljicami (Animal Tales)? Kaj imajo skupnega?
 
@@ -26,7 +26,7 @@ Raziščite različne gruče. Zakaj so nekatere magične pravljice (Tales of Mag
 
 Hierarhično razvrščanje zgradi hierarhijo dokumentov, mi pa se moramo odločiti, kje zamejimo podobnost znotraj skupine. Mejo podobnosti nastavimo tako, da na ravnilu zgoraj povlečemo črto desno ali levo in s tem zamejimo skupine.
 
-Odločili smo se za pet skupin, saj po tem razdalja med skupinami kar precej naraste. Primerjajte pet skupin s štirimo, šestimi ali sedmimi. Gruče, ki jih odkrijemo, hkrati sovpadajo z oznako tipa Aarne-Thompson (ATU Topic).
+Odločili smo se za pet skupin, saj po tem razdalja med skupinami kar precej naraste. Primerjajte pet skupin s štirimi, šestimi ali sedmimi. Gruče, ki jih odkrijemo, hkrati sovpadajo z oznako tipa Aarne-Thompson (ATU Topic).
 
 \begin{figure*}[h]
     \includegraphics[width=\linewidth]{hc-clusters.png}%
@@ -44,4 +44,4 @@ Kako blizu pa so si v resnici živalske pravljice iz tretje in te iz četrte sku
     \label{fig:005-mds}
 \end{figure*}
 
-Magične pravljice tvorijo eno skupino, živalske pa drugo - tako kot smo pričakovali. Zanimivo, magične pravljice so si med sabo bolj podobne kot živalske (bolj so povezne). Raziščite podobne pravljice tako, da jih izberete v vizualizaciji in jih pogledate v gradniku Corpus Viewer.\todo{ni vec res}
+Magične pravljice tvorijo približno eno skupino, živalske pa drugo - tako kot smo pričakovali. Živalske pravljice so si med sabo bolj podobne kot magične (bolj so povezne). Raziščite podobne pravljice tako, da jih izberete v vizualizaciji in jih pogledate v gradniku Corpus Viewer.
