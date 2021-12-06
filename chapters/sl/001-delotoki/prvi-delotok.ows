@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(81.0, 208.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(464.0, 208.0)" />
+		<node id="2" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(183.0, 514.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(40.0, 30.0, 150.0, 88.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik File. Odprite ga za dvojnim klikom in izberite podatke.</text>
+		<text id="1" type="text/plain" rect="(413.0, 22.0, 150.0, 107.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik Data Table. Z dvojnim klikom odprite gradnik. Ta podatke prikaže v preglednici.</text>
+		<text id="2" type="text/plain" rect="(562.0, 155.0, 150.0, 26.0)" font-family=".AppleSystemUIFont" font-size="16">Izhod gradnika Data Table vsebuje  primere (vrstice), ki so jih izbrali v gradniku.</text>
+		<text id="3" type="text/plain" rect="(52.0, 299.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Izhod gradnika File.</text>
+		<text id="4" type="text/plain" rect="(201.0, 314.0, 150.0, 126.0)" font-family=".AppleSystemUIFont" font-size="16">Podatkovna povezava.  Po njej se pošiljajo podatki iz gradnika File v gradnik Data Table.</text>
+		<text id="5" type="text/plain" rect="(389.0, 320.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Vhod v gradnik Data Table.</text>
+		<text id="6" type="text/plain" rect="(326.0, 479.0, 150.0, 88.0)" font-family=".AppleSystemUIFont" font-size="16">Gradnik, ki ni povezan z nobenim drugim gradnikom.</text>
+		<text id="7" type="text/plain" rect="(621.0, 369.0, 306.0, 204.0)" font-family=".AppleSystemUIFont" font-size="16">Izhod iz Data Table ni uporabljen, zato vidimo črtkano črto. Gradniku lahko dodate še en gradnik Data Table in sicer tako, da v meniju na levi izbere Data Table, nato pa izhod iz prvega gradnika Data Table povežete z vhodom v Data Table (1). Preverite, ali se izbrani podatki zares vidijo v dodanem gradniku. Prikaz je najbolj jasen, če imamo hkrati odprta oba gradnika.</text>
+		<arrow id="8" start="(93.0, 121.0)" end="(89.0, 175.0)" fill="#C1272D" />
+		<arrow id="9" start="(470.0, 129.0)" end="(467.0, 175.0)" fill="#C1272D" />
+		<arrow id="10" start="(318.0, 520.0)" end="(229.0, 513.0)" fill="#C1272D" />
+		<arrow id="11" start="(405.0, 310.0)" end="(425.0, 218.0)" fill="#39B54A" />
+		<arrow id="12" start="(119.0, 298.0)" end="(116.0, 224.0)" fill="#39B54A" />
+		<arrow id="13" start="(250.0, 300.0)" end="(255.0, 218.0)" fill="#39B54A" />
+		<arrow id="14" start="(624.0, 372.0)" end="(503.0, 238.0)" fill="#39B54A" />
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVFRAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIw9L1VzZXJzL2FqZGEvb3JhbmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL2Jyb3duLXNl
+bGVjdGVkLnRhYpSMBnByZWZpeJSMD3NhbXBsZS1kYXRhc2V0c5SMB3JlbHBhdGiUjBJicm93bi1z
+ZWxlY3RlZC50YWKUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJROdWJoBimBlH2U
+KGgJjDMvVXNlcnMvYWpkYS9vcmFuZ2Uvb3JhbmdlMy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWKU
+aAtoDGgNjAhpcmlzLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYw2L1VzZXJzL2FqZGEvb3Jh
+bmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL3RpdGFuaWMudGFilGgLaAxoDYwLdGl0YW5pYy50
+YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMNi9Vc2Vycy9hamRhL29yYW5nZS9vcmFuZ2UzL09y
+YW5nZS9kYXRhc2V0cy9ob3VzaW5nLnRhYpRoC2gMaA2MC2hvdXNpbmcudGFilGgPaBBoEWgQaBJO
+dWJoBimBlH2UKGgJjDwvVXNlcnMvYWpkYS9vcmFuZ2Uvb3JhbmdlMy9PcmFuZ2UvZGF0YXNldHMv
+aGVhcnRfZGlzZWFzZS50YWKUaAtoDGgNjBFoZWFydF9kaXNlYXNlLnRhYpRoD2gQaBFoEGgSTnVi
+aAYpgZR9lChoCYwyL1VzZXJzL2FqZGEvb3JhbmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL3pv
+by50YWKUaAtoDGgNjAd6b28udGFilGgPaBBoEWgQaBJOdWJljAtyZWNlbnRfdXJsc5RdlIwTc2F2
+ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACigAAAOoAAASFAAADKgAAAooAAAEAAAAEhQAA
+AyoAAAAAAAAAAAeAAAACigAAAQAAAASFAAADKpSMC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCM
+A3VybJRoEIwNZG9tYWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGlu
+Z3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9
+lCiMCXZhcmlhYmxlc5RdlGgvfZRoO12UKF2UKIwHYWxwaGEgMJSMFE9yYW5nZS5kYXRhLnZhcmlh
+YmxllIwSQ29udGludW91c1ZhcmlhYmxllJOUSwBoEIhlXZQojAdhbHBoYSA3lGhDSwBoEIhlXZQo
+jAhhbHBoYSAxNJRoQ0sAaBCIZV2UKIwIYWxwaGEgMjGUaENLAGgQiGVdlCiMCGFscGhhIDI4lGhD
+SwBoEIhlXZQojAhhbHBoYSAzNZRoQ0sAaBCIZV2UKIwIYWxwaGEgNDKUaENLAGgQiGVdlCiMCGFs
+cGhhIDQ5lGhDSwBoEIhlXZQojAhhbHBoYSA1NpRoQ0sAaBCIZV2UKIwIYWxwaGEgNjOUaENLAGgQ
+iGVdlCiMCGFscGhhIDcwlGhDSwBoEIhlXZQojAhhbHBoYSA3N5RoQ0sAaBCIZV2UKIwIYWxwaGEg
+ODSUaENLAGgQiGVdlCiMCGFscGhhIDkxlGhDSwBoEIhlXZQojAhhbHBoYSA5OJRoQ0sAaBCIZV2U
+KIwJYWxwaGEgMTA1lGhDSwBoEIhlXZQojAlhbHBoYSAxMTKUaENLAGgQiGVdlCiMCWFscGhhIDEx
+OZRoQ0sAaBCIZV2UKIwFRWx1IDCUaENLAGgQiGVdlCiMBkVsdSAzMJRoQ0sAaBCIZV2UKIwGRWx1
+IDYwlGhDSwBoEIhlXZQojAZFbHUgOTCUaENLAGgQiGVdlCiMB0VsdSAxMjCUaENLAGgQiGVdlCiM
+B0VsdSAxNTCUaENLAGgQiGVdlCiMB0VsdSAxODCUaENLAGgQiGVdlCiMB0VsdSAyMTCUaENLAGgQ
+iGVdlCiMB0VsdSAyNDCUaENLAGgQiGVdlCiMB0VsdSAyNzCUaENLAGgQiGVdlCiMB0VsdSAzMDCU
+aENLAGgQiGVdlCiMB0VsdSAzMzCUaENLAGgQiGVdlCiMB0VsdSAzNjCUaENLAGgQiGVdlCiMB0Vs
+dSAzOTCUaENLAGgQiGVdlCiMCGNkYzE1IDEwlGhDSwBoEIhlXZQojAhjZGMxNSAzMJRoQ0sAaBCI
+ZV2UKIwIY2RjMTUgNTCUaENLAGgQiGVdlCiMCGNkYzE1IDcwlGhDSwBoEIhlXZQojAhjZGMxNSA5
+MJRoQ0sAaBCIZV2UKIwJY2RjMTUgMTEwlGhDSwBoEIhlXZQojAljZGMxNSAxMzCUaENLAGgQiGVd
+lCiMCWNkYzE1IDE1MJRoQ0sAaBCIZV2UKIwJY2RjMTUgMTcwlGhDSwBoEIhlXZQojAljZGMxNSAx
+OTCUaENLAGgQiGVdlCiMCWNkYzE1IDIxMJRoQ0sAaBCIZV2UKIwJY2RjMTUgMjMwlGhDSwBoEIhl
+XZQojAljZGMxNSAyNTCUaENLAGgQiGVdlCiMCWNkYzE1IDI3MJRoQ0sAaBCIZV2UKIwJY2RjMTUg
+MjkwlGhDSwBoEIhlXZQojAVzcG8gMJRoQ0sAaBCIZV2UKIwFc3BvIDKUaENLAGgQiGVdlCiMBXNw
+byA1lGhDSwBoEIhlXZQojAVzcG8gN5RoQ0sAaBCIZV2UKIwFc3BvIDmUaENLAGgQiGVdlCiMBnNw
+byAxMZRoQ0sAaBCIZV2UKIwGc3BvNSAylGhDSwBoEIhlXZQojAZzcG81IDeUaENLAGgQiGVdlCiM
+B3NwbzUgMTGUaENLAGgQiGVdlCiMCnNwby0gZWFybHmUaENLAGgQiGVdlCiMCHNwby0gbWlklGhD
+SwBoEIhlXZQojAZoZWF0IDCUaENLAGgQiGVdlCiMB2hlYXQgMTCUaENLAGgQiGVdlCiMB2hlYXQg
+MjCUaENLAGgQiGVdlCiMB2hlYXQgNDCUaENLAGgQiGVdlCiMB2hlYXQgODCUaENLAGgQiGVdlCiM
+CGhlYXQgMTYwlGhDSwBoEIhlXZQojAZkdHQgMTWUaENLAGgQiGVdlCiMBmR0dCAzMJRoQ0sAaBCI
+ZV2UKIwGZHR0IDYwlGhDSwBoEIhlXZQojAdkdHQgMTIwlGhDSwBoEIhlXZQojAZjb2xkIDCUaENL
+AGgQiGVdlCiMB2NvbGQgMjCUaENLAGgQiGVdlCiMB2NvbGQgNDCUaENLAGgQiGVdlCiMCGNvbGQg
+MTYwlGhDSwBoEIhlXZQojAZkaWF1IGGUaENLAGgQiGVdlCiMBmRpYXUgYpRoQ0sAaBCIZV2UKIwG
+ZGlhdSBjlGhDSwBoEIhlXZQojAZkaWF1IGSUaENLAGgQiGVdlCiMBmRpYXUgZZRoQ0sAaBCIZV2U
+KIwGZGlhdSBmlGhDSwBoEIhlXZQojAZkaWF1IGeUaENLAGgQiGVdlCiMCGZ1bmN0aW9ulGhBjBBE
+aXNjcmV0ZVZhcmlhYmxllJOUSwGME1Byb3RlYXMsIFJlc3AsIFJpYm+UiWVdlCiMBGdlbmWUaEGM
+DlN0cmluZ1ZhcmlhYmxllJOUSwJoEIllZXNoMUsBdYwKYXR0cmlidXRlc5QojAdhbHBoYSAwlEsC
+hpSMB2FscGhhIDeUSwKGlIwIYWxwaGEgMTSUSwKGlIwIYWxwaGEgMjGUSwKGlIwIYWxwaGEgMjiU
+SwKGlIwIYWxwaGEgMzWUSwKGlIwIYWxwaGEgNDKUSwKGlIwIYWxwaGEgNDmUSwKGlIwIYWxwaGEg
+NTaUSwKGlIwIYWxwaGEgNjOUSwKGlIwIYWxwaGEgNzCUSwKGlIwIYWxwaGEgNzeUSwKGlIwIYWxw
+aGEgODSUSwKGlIwIYWxwaGEgOTGUSwKGlIwIYWxwaGEgOTiUSwKGlIwJYWxwaGEgMTA1lEsChpSM
+CWFscGhhIDExMpRLAoaUjAlhbHBoYSAxMTmUSwKGlIwFRWx1IDCUSwKGlIwGRWx1IDMwlEsChpSM
+BkVsdSA2MJRLAoaUjAZFbHUgOTCUSwKGlIwHRWx1IDEyMJRLAoaUjAdFbHUgMTUwlEsChpSMB0Vs
+dSAxODCUSwKGlIwHRWx1IDIxMJRLAoaUjAdFbHUgMjQwlEsChpSMB0VsdSAyNzCUSwKGlIwHRWx1
+IDMwMJRLAoaUjAdFbHUgMzMwlEsChpSMB0VsdSAzNjCUSwKGlIwHRWx1IDM5MJRLAoaUjAhjZGMx
+NSAxMJRLAoaUjAhjZGMxNSAzMJRLAoaUjAhjZGMxNSA1MJRLAoaUjAhjZGMxNSA3MJRLAoaUjAhj
+ZGMxNSA5MJRLAoaUjAljZGMxNSAxMTCUSwKGlIwJY2RjMTUgMTMwlEsChpSMCWNkYzE1IDE1MJRL
+AoaUjAljZGMxNSAxNzCUSwKGlIwJY2RjMTUgMTkwlEsChpSMCWNkYzE1IDIxMJRLAoaUjAljZGMx
+NSAyMzCUSwKGlIwJY2RjMTUgMjUwlEsChpSMCWNkYzE1IDI3MJRLAoaUjAljZGMxNSAyOTCUSwKG
+lIwFc3BvIDCUSwKGlIwFc3BvIDKUSwKGlIwFc3BvIDWUSwKGlIwFc3BvIDeUSwKGlIwFc3BvIDmU
+SwKGlIwGc3BvIDExlEsChpSMBnNwbzUgMpRLAoaUjAZzcG81IDeUSwKGlIwHc3BvNSAxMZRLAoaU
+jApzcG8tIGVhcmx5lEsChpSMCHNwby0gbWlklEsChpSMBmhlYXQgMJRLAoaUjAdoZWF0IDEwlEsC
+hpSMB2hlYXQgMjCUSwKGlIwHaGVhdCA0MJRLAoaUjAdoZWF0IDgwlEsChpSMCGhlYXQgMTYwlEsC
+hpSMBmR0dCAxNZRLAoaUjAZkdHQgMzCUSwKGlIwGZHR0IDYwlEsChpSMB2R0dCAxMjCUSwKGlIwG
+Y29sZCAwlEsChpSMB2NvbGQgMjCUSwKGlIwHY29sZCA0MJRLAoaUjAhjb2xkIDE2MJRLAoaUjAZk
+aWF1IGGUSwKGlIwGZGlhdSBilEsChpSMBmRpYXUgY5RLAoaUjAZkaWF1IGSUSwKGlIwGZGlhdSBl
+lEsChpSMBmRpYXUgZpRLAoaUjAZkaWF1IGeUSwKGlHSUjAVtZXRhc5SMBGdlbmWUSwOGlIWUjApj
+bGFzc192YXJzlIwIZnVuY3Rpb26UXZQojAdQcm90ZWFzlIwEUmVzcJSMBFJpYm+UZYaUhZSMEm1v
+ZGlmaWVkX3ZhcmlhYmxlc5RdlHViYXUu
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02&amp;\x00\x00\x01\x05\x00\x00\x05E\x00\x00\x03\x0e\x00\x00\x02&amp;\x00\x00\x01\x1b\x00\x00\x05E\x00\x00\x03\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02&amp;\x00\x00\x01\x1b\x00\x00\x05E\x00\x00\x03\x0e', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'auto_sample': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x80\x00\x00\x00\x9d\x00\x00\x05\xeb\x00\x00\x03v\x00\x00\x01\x80\x00\x00\x00\xb3\x00\x00\x05\xeb\x00\x00\x03v\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x80\x00\x00\x00\xb3\x00\x00\x05\xeb\x00\x00\x03v', 'selection': None, 'tooltip_shows_all': True, 'visual_settings': {}, 'graph': {'alpha_value': 255, 'class_density': False, 'jitter_continuous': True, 'jitter_size': 0, 'label_only_selected': False, 'orthonormal_regression': False, 'point_width': 10, 'show_grid': False, 'show_legend': True, 'show_reg_line': False}, '__version__': 5, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

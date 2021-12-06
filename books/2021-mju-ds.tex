@@ -1,0 +1,75 @@
+\documentclass[symmetric, justified, a4paper]{tufte-book}
+
+%% configuration, packages
+
+\input{../config-sl}
+\usepackage{todonotes}
+
+% Switch this variable true/false to print or hide lecturer notes.
+\renewcommand{\printlecnotes}{true}
+
+%\printnotes{}
+
+\makeindex
+
+%%
+% Book metadata
+\title{Uvod v znanost \\o podatkih}
+\author[Biolab in sodelavci]{Biolab in sodelavci}
+\publisher{Biolab}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% full title page
+\maketitle
+
+\input{../ch-copyright-sl}
+
+\tableofcontents
+
+% \include{../ch-introduction}
+
+% Start the main matter (normal chapters)
+\mainmatter
+
+%%%% ORANGE MJU %%%%
+
+\subimport{../chapters/sl/001-delotoki/}{workflows}
+\subimport{../chapters/sl/002-raziskovanje-podatkov/}{raziskovanje-podatkov}
+\subimport{../chapters/sl/003-shranjevanje-delotokov/}{shranjevanje-delotokov}
+\subimport{../chapters/sl/004-nalaganje-podatkov/}{nalaganje-podatkov}
+
+% Clustering
+
+\subimport{../chapters/sl/010-hierarhicno-razvscanje/}{hierarhicno-razvrscanje}
+\subimport{../chapters/sl/011-raziskovanje-gruc/}{raziskovanje-gruc}
+
+\subimport{../assignments/sl/010-grucenje/}{grucenje}
+
+% Classification
+
+\subimport{../chapters/sl/020-klasifikacija/}{klasifikacija}
+\subimport{../chapters/sl/021-klasifikacijska-drevesa/}{drevesa}
+\subimport{../chapters/sl/022-pregled-modela/}{pregled-modela}
+\subimport{../chapters/sl/023-naivni-bayes/}{naivni-bayes}
+\subimport{../chapters/sl/024-logisticna-regresija/}{logisticna-regresija}
+\subimport{../chapters/sl/025-klasifikacijska-tocnost/}{klasifikacijska-tocnost}
+
+% Model evaluation
+
+\subimport{../chapters/sl/030-kako-goljufati/}{kako-goljufati}
+\subimport{../chapters/sl/031-precno-preverjanje/}{precno-preverjanje}
+
+\subimport{../assignments/sl/020-klasifikacija/}{klasifikacija}
+
+% The back matter contains appendices, bibliographies, indices, glossaries, etc.
+\backmatter
+
+\nocite{*}
+\bibliography{../mju-handout}
+\bibliographystyle{plainnat}
+
+\end{document}
