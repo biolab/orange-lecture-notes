@@ -5,7 +5,7 @@
     \includegraphics[scale=0.4]{workflow-randomize.png}
 \end{wrapfigure}
 
-At this stage, \marginnote[-2cm]{This lesson has a strange title and it is not obvious why it was chosen. Maybe you, the reader, should tell us what this lesson has to do with cheating.} the classification tree looks very good. There’s only one data point where it makes a mistake. Can we mess up the data set so bad that the trees will ultimately fail? Like, remove any existing correlation between features and the class? We can! There's the \widget{Randomize} widget with class shuffling. Check out the chaos it creates in the \widget{Scatter Plot} visualization where there were nice clusters before randomization!
+At this stage, \marginnote[-2cm]{\textbf{\textsf{This lesson has a strange title and it is not obvious why it was chosen. Maybe you, the reader, should tell us what this lesson has to do with cheating.}}} the classification tree looks very good. There’s only one data point where it makes a mistake. Can we mess up the data set so bad that the trees will ultimately fail? Like, remove any existing correlation between features and the class? We can! There's the \widget{Randomize} widget with class shuffling. Check out the chaos it creates in the \widget{Scatter Plot} visualization where there were nice clusters before randomization!
 
 \begin{figure*}[h]
     \infinitewidthbox{
@@ -13,7 +13,7 @@ At this stage, \marginnote[-2cm]{This lesson has a strange title and it is not o
     \includegraphics[scale=0.4]{randomize100.png}
     \includegraphics[scale=0.4]{scatterplot_iris_random.png}
     }
-    \caption{Left: scatter plot of the \textit{Iris} data set before randomization; right: scatter plot after shuffling 100\% of rows.}
+    \caption{\textbf{\textsf{Left: scatter plot of the \textit{Iris} data set before randomization; right: scatter plot after shuffling 100\% of rows.}}}
 \end{figure*}
 
 Fine. There can be no classifier that can model this mess, right? Let’s make sure.
@@ -38,7 +38,7 @@ Can we further improve accuracy on the shuffled data? Let us try to change some 
 \begin{figure}[h]
     \includegraphics[scale=0.35]{better_tree.png}
     \includegraphics[scale=0.35]{confusion_randomized_better.png}
-    \caption{After we disable 2--4 check box in the \widget{Tree} widget, our classifier starts behaving almost perfectly.}
+    \caption{\textbf{\textsf{After we disable 2--4 check box in the \widget{Tree} widget, our classifier starts behaving almost perfectly.}}}
 \end{figure}
 
 
@@ -46,7 +46,7 @@ Wow, almost no mistakes now. How is this possible? On a class-randomized data se
 
 \begin{wrapfigure}{o}{0.85\textwidth}
     \includegraphics[scale=0.4]{tree_viewer.png}
-    \caption{In the build tree, there are 75 leaves. Remember, there are only 150 rows in the \textit{Iris} data set.}
+    \caption{\textbf{\textsf{In the build tree, there are 75 leaves. Remember, there are only 150 rows in the \textit{Iris} data set.}}}
 \end{wrapfigure}
 
 To find the answer to this riddle, open the \widget{Tree Viewer} and check out the tree. How many nodes does it have? Are there many data instances in the leaf nodes?
@@ -57,7 +57,7 @@ Ha, if this is so, if a classifier remembers everything from a data set but with
 
 \begin{figure}[h]
     \includegraphics[scale=0.35]{workflow_data_sampler.png}
-    \caption{Connect the \widget{Data Sampler} widget carefully. The \widget{Data Sampler} splits the data to a sample and out-of-sample (so called remaining data). The sample was given to the \widget{Tree} widget, while the remaining data was handed to the \widget{Predictions} widget. Set the \widget{Data Sampler} so that the size of these two data sets is about equal.}
+    \caption{\textbf{\textsf{Connect the \widget{Data Sampler} widget carefully. The \widget{Data Sampler} splits the data to a sample and out-of-sample (so called remaining data). The sample was given to the \widget{Tree} widget, while the remaining data was handed to the \widget{Predictions} widget. Set the \widget{Data Sampler} so that the size of these two data sets is about equal.}}}
 \end{figure}
 
 Let’s check how the \widget{Confusion Matrix} looks after testing the classifier on the test data.
@@ -66,7 +66,7 @@ The first two classes are a complete fail. The predictions for ribosomal genes a
 
 \begin{figure}[h]
     \includegraphics[scale=0.4]{confusion_sampler.png}
-    \caption{Confusion matrix if we estimate accuracy on a data set that was not used in learning.}
+    \caption{\textbf{\textsf{Confusion matrix if we estimate accuracy on a data set that was not used in learning.}}}
 \end{figure}
 
 We have just learned that we need to train the classifiers on the training set and then test it on a separate test set to really measure performance of a classification technique. With this test, we can distinguish between those classifiers that just memorize the training data and those that actually learn a general model.

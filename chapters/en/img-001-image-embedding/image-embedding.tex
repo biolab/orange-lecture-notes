@@ -1,7 +1,7 @@
 \chapter{Image Embedding}
 \label{ch:image-embedding}
 
-Every data set so far came in the matrix (tabular) form: objects (say, tissue samples, students, flowers) were described by row vectors representing a number of features. Not all the data is like this; think about collections of text articles, nucleotide sequences, voice recordings or images. \marginnote{This depiction of deep learning network was borrowed from \url{http://www.amax.com/blog/?p=804}}It would be great if we could represent them in the same matrix format we have used so far. We would turn collections of, say, images, into matrices and explore them with the familiar prediction or clustering techniques.
+Every data set so far came in the matrix (tabular) form: objects (say, tissue samples, students, flowers) were described by row vectors representing a number of features. Not all the data is like this; think about collections of text articles, nucleotide sequences, voice recordings or images. \marginnote{\textbf{\textsf{This depiction of deep learning network was borrowed from \url{http://www.amax.com/blog/?p=804}}}} It would be great if we could represent them in the same matrix format we have used so far. We would turn collections of, say, images, into matrices and explore them with the familiar prediction or clustering techniques.
 
 \begin{wrapfigure}{o}{1.0\textwidth}
     \includegraphics[scale=0.5]{blog_deeplearning.jpg}
@@ -29,7 +29,7 @@ Image embedding describes the images with a set of 2048 features appended to the
     \caption{$\;$}
 \end{figure*}
 
-We have no idea what these features are,\marginnote{Images are available at \url{http://file.biolab.si/images/domestic-animals.zip}} except that they represent some higher-abstraction concepts in the deep neural network (ok, this is not very helpful in terms of interpretation). Yet, we have just described images with vectors that we can compare and measure their similarities and distances. Distances? Right, we could do clustering. Let's cluster the images of animals and see what happens.
+We have no idea what these features are,\marginnote{\textbf{\textsf{Images are available at \url{http://file.biolab.si/images/domestic-animals.zip}}}} except that they represent some higher-abstraction concepts in the deep neural network (ok, this is not very helpful in terms of interpretation). Yet, we have just described images with vectors that we can compare and measure their similarities and distances. Distances? Right, we could do clustering. Let's cluster the images of animals and see what happens.
 
 \begin{figure*}[h]
     \centering

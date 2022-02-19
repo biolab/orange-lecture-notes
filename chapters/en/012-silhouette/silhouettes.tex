@@ -1,7 +1,7 @@
 \chapter{Silhouettes}
 \label{ch:silhouettes}
 
-\newthought{Consider a two-feature data set} which we have painted in the \widget{Paint Data} widget. We send it to the k-means clustering, tell it to find three clusters, and display the clustering in the scatter plot.\marginnote{Don't get confused: we paint data and/or visualize it with Scatter plots, which show only two features. This is just for an illustration! Most data sets contain many features and methods like k-Means clustering take into account all features, not just two.}
+\newthought{Consider a two-feature data set} which we have painted in the \widget{Paint Data} widget. We send it to the k-means clustering, tell it to find three clusters, and display the clustering in the scatter plot.\marginnote{\textbf{\textsf{Don't get confused: we paint data and/or visualize it with Scatter plots, which show only two features. This is just for an illustration! Most data sets contain many features and methods like k-Means clustering take into account all features, not just two.}}}
 
 \begin{marginfigure}
     \centering
@@ -20,7 +20,7 @@ The data points in the green cluster are well separated from those in the other 
 \begin{marginfigure}
     \centering
     \includegraphics[scale=0.25]{silhouette-pt1.png}
-    \caption{Average distance A.}
+    \caption{\textbf{\textsf{Average distance A.}}}
 \end{marginfigure}
 
 We will invent a scoring measure for this and we will call it a silhouette (because this is how it's called). Our goal: a silhouette of 1 (one) will mean that the data instance is well rooted in the cluster, while the score of 0 (zero) will be assigned to data instances on the border between two clusters.
@@ -32,14 +32,14 @@ On the other hand, we would like a data point to be far away from the points in 
 \begin{marginfigure}
     \centering
     \includegraphics[scale=0.25]{silhouette-pt2.png}
-    \caption{Average distance B.}
+    \caption{\textbf{\textsf{Average distance B.}}}
 \end{marginfigure}
 
 The point is well rooted within its own cluster if the distance to the points from the neighboring cluster (B) is much larger than the distance to the points from its own cluster (A), hence we compute B-A. We normalize it by dividing it with the larger of these two numbers, S  = (B -A) / max{A, B}. Voilá, S is our silhouette score.
 
 Orange has a \widget{Silhouette Plot} widget that displays the values of the silhouette score for each data instance. We can also choose a particular data instance in the silhouette plot and check out its position in the scatter plot.
 
-\marginnote{C3 is the green cluster, and all its points have large silhouettes. Not so for the other two.}
+\marginnote{\textbf{\textsf{C3 is the green cluster, and all its points have large silhouettes. Not so for the other two.}}}
 
 \begin{figure}[h]
     \centering
@@ -47,7 +47,7 @@ Orange has a \widget{Silhouette Plot} widget that displays the values of the sil
     \caption{$\;$} % empty caption for proper pagesetting
 \end{figure}
 
-This of course looks great for data sets with two features, where the scatter plot reveals all the information. In higher-dimensional data, the scatter plot shows just two features at a time, so two points that seem close in the scatter plot may be actually far apart when all features - perhaps thousands of gene expressions - are taken into account. \marginnote{We selected three data instances with the worst silhouette scores. Can you guess where they lie in the scatter plot?}
+This of course looks great for data sets with two features, where the scatter plot reveals all the information. In higher-dimensional data, the scatter plot shows just two features at a time, so two points that seem close in the scatter plot may be actually far apart when all features - perhaps thousands of gene expressions - are taken into account. \marginnote{\textbf{\textsf{We selected three data instances with the worst silhouette scores. Can you guess where they lie in the scatter plot?}}}
 
 \begin{figure}[h!]
     \centering
