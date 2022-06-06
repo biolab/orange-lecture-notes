@@ -1,0 +1,100 @@
+\documentclass[symmetric, justified, a4paper, nofonts]{tufte-book}
+
+%% configuration, packages
+
+\input{../config}
+%\printnotes{}
+
+% Switch this variable true/false to print or hide lecturer notes.
+\renewcommand{\printlecnotes}{true}
+
+\makeindex
+
+\title{Introduction to \\ Data Analytics: \\ {\large a hands-on lecture at University of Ljubljana}
+\thanks{Thanks to everyone who worked on this document.}}
+% \author[Bioinformatics Lab, Ljubljana]{Bioinformatics Lab, Ljubljana 2022}
+\author{}
+\publisher{Bioinformatics Lab, Ljubljana}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% full title page
+\maketitle
+
+This is an accompany material for the short, four-hour lecture for Ph. D. students that took the course on functional genomics at University of Ljubljana. These working notes include some of the Orange workflows we had constructed during the lectures. Throughout our training, the students saw how to accomplish various data mining tasks through visual programming and use Orange to build visual data mining workflows. Many similar data mining environments exist, but the lecturers prefer Orange for one simple reason—they are its authors.
+
+If you haven't already installed Orange, please download the installation package from \url{http://orangedatamining.com}.
+
+The notes were written by Blaž Zupan and Janez Demšar with help from the members of the Bioinformatics Lab in Ljubljana, Slovenia, that developed Orange. We would specifically like to thank Ajda Pretnar Žagar and Marko Toplak for proofreading, editing, and converting our previous documents in Pages to LaTeX.
+
+\input{../ch-copyright}
+
+\tableofcontents
+
+\mainmatter
+
+% lecture #1: explorative data analysis, intro to clustering
+\subimport{../chapters/en/001-workflows/}{workflows}
+\subimport{../chapters/en/002-basic-data-exploration/}{basic-data-exploration}
+\subimport{../chapters/en/003-saving-your-work/}{saving}
+\subimport{../chapters/en/004-loading-data/}{loading-data}
+\subimport{../chapters/en/010-hierarchical-clustering/}{hierarchical-clustering}
+
+% lecture #2: cluster explanation, silhouette, some more clustering
+\subimport{../chapters/en/011-animal-kingdom/}{animal-kingdom}
+\subimport{../chapters/en/012-silhouette/}{silhouettes}
+\subimport{../chapters/en/013-kmeans-clustering/}{kmeans-clustering}
+
+% lecture #3: classification, accuracy, overfitting, cross-validation
+\subimport{../chapters/en/020-classification/}{classification}
+\subimport{../chapters/en/021-classification-trees/}{classification-trees}
+\subimport{../chapters/en/028-model-inspection/}{model-inspection}
+\subimport{../chapters/en/029-classification-accuracy/}{classification-accuracy}
+\subimport{../chapters/en/030-how-to-cheat/}{how-to-cheat}
+\subimport{../chapters/en/032-cross-validation/}{cross-validation}
+
+%% Add "More Classifiers" or separate learner sections %%
+
+% lecture #4: classifiers, explanation
+\subimport{../chapters/en/023-logistic-regression/}{logistic-regression}
+\subimport{../chapters/en/025-random-forests/}{random-forests}
+\subimport{../chapters/en/024-svm/}{svm}
+\subimport{../chapters/en/026-knn/}{knn}
+\subimport{../chapters/en/022-naive-bayes/}{naive-bayes}
+
+% lecture #5: feature selection and overfitting, scoring with AUC
+\subimport{../chapters/en/035-fss-overfitting/}{fss-overfitting}
+\subimport{../chapters/en/036-fss-randomized/}{fss-randomized}
+\subimport{../chapters/en/037-correct-cv/}{correct-cv}
+\subimport{../chapters/en/038-model-scoring/}{model-scoring.tex}
+\subimport{../chapters/en/039-p-thresholds/}{p-thresholds.tex}
+
+% lecture #6: linear regression, regularization
+\subimport{../chapters/en/040-linear-regression/}{linear-regression}
+\subimport{../chapters/en/041-regularization/}{regularization}
+\subimport{../chapters/en/042-reg-test-set/}{reg-test-set}
+\subimport{../chapters/en/043-methylation}{methylation}
+\subimport{../chapters/en/044-reg-evaluation}{reg-eval}
+\subimport{../chapters/en/045-reg-fss}{reg-fss}
+
+% lecture #7: projections and embedding 
+% the lecture included going through some of the regression concepts again,
+% hence not much material)
+
+\subimport{../chapters/en/014-pca/}{pca}
+\subimport{../chapters/en/015-mapping-the-data/}{mapping-the-data}
+
+% The back matter contains appendices, bibliographies, indices, glossaries, etc.
+\backmatter
+\nocite{*}
+
+\bibliography{../sample-handout}
+\bibliographystyle{plainnat}
+
+
+\printindex
+
+\end{document}
